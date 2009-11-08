@@ -1,0 +1,474 @@
+<?xml version="1.0"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Kanji Database Project （漢字データベース計画）</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" href="kanjidb.css" type="text/css"/>
+</head>
+
+<body lang="ja" xml:lang="ja">
+
+<p>This page has been hosted by <a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=26261" width="88" height="31" border="0" alt="SourceForge Logo"/></a></p>
+
+<h1>漢字データベース計画</h1>
+<h1>Kanji Database Project</h1>
+
+<hr/>
+<h3>近況</h3>
+<ul>
+  <li>2007年1月26日：<b>「未来の漢字コードとフリーな日本語フォントの食話会＠関東」</b>を開催しました。甲骨文字の標準化・漢字グリフのストロークの長さと太さの関係・近日中にリリースされる新日本語フォント（フリー）の命名、などが話題になりました。</li>
+  <!--li>2007年3月23日：「UCS漢字の包摂規準」の試案を作成し、<a href="http://kanji.zinbun.kyoto-u.ac.jp/seminars/oricom/2007.html">「東洋学へのコンピュータ利用・研究セミナー」</a>にて「UCSの統合漢字から見る包摂規準」とう題名で発表させて頂きました。参加者からは貴重なコメントを頂きました。</li-->
+</ul>
+
+<div id="contents" class="contents">
+  <h3>目次</h3>
+  <ul>
+    <li><a href="#summary">概要</a></li>
+  </ul>
+    漢字データベース
+  <ul>
+    <li><a href="#ids-shape">字形ＩＤＳデータ</a></li>
+    <li><a href="#ids-analysis">解字ＩＤＳデータ</a></li>
+    <li><a href="#housetsu">ＵＣＳ漢字の統合・包摂規準</a></li>
+    <li><a href="#swjz">説文解字注データ</a></li>
+    <li><a href="#sbgy">宋本廣韻データ</a></li>
+    <li><a href="#daikanwa">大漢和辞典⇔UCS対応表</a></li>
+    <!--li><a href="#gb2ucs">ＧＢ⇔ＵＣＳ対応表（準備中）</a></li-->
+    <li><a href="#swfont">小篆フォント「SW.ttf」UCS対応表</a></li>
+    <li><a href="#variants">異体字データベース</a></li>
+    <li><a href="#similar-chars">ＵＣＳ類似漢字一覧表</a></li>
+    <li><a href="#duplicate-chars">ＵＣＳ重複漢字一覧表</a></li>
+    <!--li><a href="#unifiable-parts">ＵＣＳ統合可能漢字部品文字一覧表（準備中）</a></li-->
+    <!--li><a href="#unifiable-chars">ＵＣＳ統合可能漢字一覧表（準備中）</a></li-->
+    <li><a href="#font">漢字フォント「花園明朝」</a></li>
+  </ul>
+    フォント・関連リンク
+  <ul>
+    <li><a href="#links">関連リンク集</a></li>
+    <li><a href="#standards">漢字コード標準・規格関連情報</a></li>
+    <li><a href="#papers">参考文献・発表</a></li>
+  </ul>
+</div>  
+
+<div id="summary">
+  <h2>概要</h2>
+  <p>『漢字データベース計画』は、Unicode / UCS(Universal Coded Sets) によって符号化された漢字（CJK統合漢字）の情報交換・検索照合・分析に役立つ様々なデータベースを整備することを目的に、2003年度に<a href="http://www.jsps.go.jp/index.html">日本学術振興会</a>科学研究費補助金・研究成果公開促進費（データベース）の援助を受けて開始しました。</p>
+  <!--p>現在の本プロジェクトの<a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/AUTHORS">主要なメンバー</a>は、師 茂樹（花園大学）、川幡 太一（ＮＴＴサイバーソリューション研究所・花園大学客員研究員）、上地 宏一（慶応大学）、秋山 陽一郎（京都大学人文科学研究所）です。</p-->
+  <p>各種漢字データファイルは、<a href="http://sourceforge.net/cvs/?group_id=26261">CVS</a>にて管理されており、CVSサーバから取得することができます。IDS (Ideographic Description Sequence) については、<a href="#standards">ISO/IEC 10646:2003</a> 箇条 F.3 を参照してください。</p>
+  <p>以下は補足情報です。</p>
+  <ul>
+    <li><a href="#links">関連リンク集</a></li>
+    <li><a href="#standards">漢字コード標準・規格関連情報</a></li>
+    <li><a href="#papers">参考文献・発表</a></li>
+  </ul>
+  <p>なお、本プロジェクトへの連絡は、"kanji-database-ｃｏｎｔａｃｔ＠ｌｉｓｔｓ.sourceforge.net"（全角英数字は半角に修正ください） までお願いいたします。</p>
+</div>
+
+
+<div id="ids-shape">
+  <h2>字形ＩＤＳデータ</h2>
+  <p>字形ＩＤＳデータは、UCS漢字の字形を可能な限り、IDSで表記する試みです。本データは、<a href="http://kanji.zinbun.kyoto-u.ac.jp/projects/chise/ids/">CHISE 漢字情報構造データ</a>のブランチ（枝）として、IRGの標準化作業の一環として整備しています。</p>
+  <p>CHISE IDSの主ブランチと比較して、本ブランチは (1) 部品の表現にUCSのAnnex Sの規定を適用する (2) CJK統合漢字の字形差をできるだけ明確にする (3) DC (Description Character) にはUCS文字を可能な限り使用し、やむを得ない場合に限って、CDP外字を使用するようにしています。</p>
+  <p>本データは ISO/IEC JTC1/SC2/WG2/IRG における、拡張C・D漢字集合の標準化作業に利用されています。またその際、各国・各地域のメンバーからデータの間違いなどを指摘して頂きました。拡張Ｃ文字集合の候補漢字は、本データを参考に各国・各地域の担当者の手によりＩＤＳ化されました。このデータを利用することで、拡張Ｃ文字集合の品質の向上を図っています。</p>
+  <ul>
+    <li><a href="http://cvs.m17n.org/viewcvs/chise/ids/?only_with_tag=kawabata">字形ＩＤＳデータ（CVSサーバ・ブランチ名：kawabata）</a></li>
+  </ul>
+</div>
+
+
+<div id="ids-analysis">
+  <h2>解字ＩＤＳデータ</h2>
+  <p>解字ＩＤＳデータは、UCS漢字を、字の成り立ちからIDS化する作業を行っています。各漢字の成り立ちについては、説文解字注による記述を中心に、字通、漢語林、<a href="http://homepage3.nifty.com/gimon/setmon02.htm">オンライン説文（新字源）</a>よる解釈を参考にしています。説文解字注の記述を重視しているため、必ずしも現在通用している説と同じとは限りません。各カラムはタブで区切られており、以下の意味を持ちます。</p>
+  <table border="">
+    <tr><th>カラム</th><th>書式</th><th>説明</th></tr>
+    <tr><td>1</td><td>U+<i>xxxxx</i></td><td>UCS符号</td></tr>
+    <tr><td>2</td><td><i>char</i></td><td>文字</td></tr>
+    <tr><td>3</td><td>→<i>char</i></td><td>この漢字が、<i>char</i>から派生した異体字であることを示します。</td></tr>
+    <tr><td>3</td><td><i>IDS</i></td><td>この漢字が会意・形声文字の場合はIDSを示します。指事・象形文字の場合は文字そのものを示します。</td></tr>
+    <tr><td>4</td><td>六書</td><td>この文字が形声文字の場合は、“Ｘ聲”として示します。会意形声文字の場合は、“Ｘ亦聲”と表記する場合があります。</td></tr>
+    <tr><td>5</td><td>説文解字注番号</td><td>説文での位置を、“《<i>Ｒxxx</i>》”で表記します。<i>Ｒ</i>は部首、<i>xxx</i>は部首での番号を示します。</td></tr>
+    <tr><td>6</td><td>コメント</td><td>他の出典や解字の異説などを、“【・・・】”で示す場合があります。</td></tr>
+  </table>
+  <p>解字ＩＤＳデータは、象形文字・会意文字を康煕字典部首画数の順に並べ、その異体字や形声文字をそれぞれの後ろに配列しています。</p>
+  <ul>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/ids-analysis.txt">解字ＩＤＳデータ（テキストファイル）</a></li>
+  </ul>
+</div>
+
+
+<div id="housetsu">
+  <h2>ＵＣＳ漢字の統合・包摂規準</h2>
+  <p>「ＵＣＳ漢字の統合・包摂規準」は、JIS X 0208/0213で規定されている包摂規準に類似するものを、UCS漢字に対して作成しようとする試みです。JISの連番をベースに作成し、UCS漢字の入力・検索の参考情報として示すことを目的とします。</p>
+  <ul>
+    <li><a href="housetsu.html">UCS漢字の統合・包摂規準</a></li>
+  </ul>
+</div>
+
+
+<div id="swjz">
+  <h2 id="swjz">說文解字注データ</h2>
+  <p><b>説文解字注</b>データは、段玉裁の「説文解字注」をUCSで符号化することを目指します。2007年現在、まだ３割程度の親字が未入力です。本データは、日本学術振興会科学研究費・基盤研究C「次世代古典文献データベース構築の基礎的研究」（平成14〜16年度、課題番号：14510494、研究代表者：村越貴代美）による成果の一部を利用させて頂いています。</p>
+  <p><b>説文解字</b>注データは、經韵樓臧版（上海古籍出版社）影印本を 特定の XML スキーマに従うように再構成しています。これにより、XMLデータ言語（XQuery等）でデータ処理ができることを目指します。</p>
+  <ul>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/swjz.xml">説文解字注データ（XMLファイル）</a></li>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/swjz.rnc">説文解字注データ（スキーマファイル）</a></li>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/swjz.xsl">説文解字注・XHTML用スタイルシート（漢字のみ）</a></li>
+    <li><a href="http://kanji-database.sourceforge.net/swjz.xml" target="swjz">説文解字注・XHTML版（要XSLT対応ブラウザ）</a></li>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/bmfy.xml">部目分韵データ（XMLファイル）</a></li>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/lsyj.xml">六書音均表データ（XMLファイル）</a></li>
+    <!--li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/lsyj.xsl">六書音均表・XHTML用スタイルシート</a></li-->
+    <!--li><a href="http://kanji-database.sourceforge.net/lsyj.xml">六書音均表・XHTML版（要XSL対応ブラウザ）</a></li-->
+  </ul>
+</div>
+
+
+<div id="sbgy">
+  <h2>宋本廣韻データ</h2>
+  <p>宋本<b>広韻</b>データは、周祖謨「校正宋本廣韻」をUCSで符号化することを目指します。本データは、日本学術振興会科学研究費・基盤研究C「次世代古典文献データベース構築の基礎的研究」（平成14〜16年度、課題番号：14510494、研究代表者：村越貴代美）による成果の一部を利用させて頂いています。</p>
+  <p>宋本廣韻データは、指定された XML スキーマに基いて入力されてり、XML処理系でデータ処理ができることを目指します。反切部分はマークアップで示され、そこから推定される中古音の例をIPAで示します。親字ＩＤは工藤祐嗣氏の「巻数(1-5)・丁数(2桁数)・表裏面(a/b)・行数・番号」を利用させて頂いています（<a href="http://members.at.infoseek.co.jp/yunzukudo/download/koinDB2.0_readme.pdf">→参考論文</a>）。</p>
+  <ul>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/sbgy.xml">宋本廣韻データ（XMLファイル）</a></li>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/sbgy.rnc">宋本廣韻データ（スキーマファイル）</a></li>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/sbgy.xsl">宋本廣韻・XHTML用スタイルファイル</a></li>
+    <li><a href="http://kanji-database.sourceforge.net/sbgy.xml" target="sbgy">宋本廣韻・XHTML版（要XSLT対応ブラウザ）</a></li>
+  </ul>
+</div>
+
+
+<div id="swfont">
+  <h2>篆書体フォント “SW.ttf” UCS対応表</h2>
+  <p>本データは、<a href="http://www.wenzi.cn/hanziziyuan/lishihanzi/shuowen/shuowen_index.htm">説文解字検索データベース</a>や、「《说文解字》全文检索」(ISBN 7-80652-327-8)などの書籍で入手可能な篆書体 フォント “SW.ttf”と、UCS符号との対応を示します。本データはまだ未完成です。SW.ttf フォントは、説文解字（大徐本）に基づいています。それぞれのカラムの意味は以下の通りです。</p>
+  <table border="">
+    <tr>
+      <th>カラム番号</th><th>説明</th>
+    </tr>
+    <tr>
+      <td>1</td><td>SW.ttfの文字コード</td>
+    </tr>
+    <tr>
+      <td>2</td><td>説文解字の整理番号（仮番号）</td>
+    </tr>
+    <tr>
+      <td>3</td><td>対応する文字（複数ある場合は、小篆に近い順番）</td>
+    </tr>
+  </table>
+  <p>なお、本フォントをインストールすると、HTMLのスタイルで "font-family: SW;" を指定することで、対応する小篆をブラウザで表示することができます。</p>
+  <ul>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/swfont.txt">SW.ttf・Unicode 対応表</a>
+    </li>
+  </ul>
+</div>
+
+
+<div id="daikanwa">
+  <h2>大漢和辞典⇔UCS対応表</h2>
+  <p>本データ（dkw2ucs.txt）は、大漢和辞典（諸橋大漢和・大修館）の番号（大漢和番号）とUCS漢字・注音文字の対応を示します。</p>
+  <table><tr><td>
+    <table border="">
+      <caption>dkw2ucs.txtの書式</caption>
+      <tr><th>カラム</th><th>必須</th><th>内容</th><th>書式</th><th>説明</th></tr>
+      <tr><td>1</td><td>○</td><td>大漢和番号</td><td>Dxxxxx.y</td><td> y=0はダッシュなし、y=1はダッシュ、y=2は２ダッシュを示します。</td></tr>
+      <tr><td>2</td><td>○</td><td>部首番号</td><td>DRxxx</td><td>康煕字典部首番号を示します。</td></tr>
+      <tr><td>3</td><td>○</td><td>部首画数</td><td>DSxx</td><td>部首画数を示します。</td></tr>
+      <tr><td>4</td><td>×</td><td>UCS符号</td><td>U+xxxxx</td><td> 対応するUCS符号を示します。（複数可）</td></tr>
+      <tr><td>4</td><td>×</td><td>重複漢字</td><td>→ Dxxxxx.y</td><td>他の大漢和番号で示される親字と、形・音・義で重複していることを示します。</td></tr>
+      <tr><td>5</td><td>×</td><td>コメント区切り</td><td>#</td><td>“#”以降は補足情報です。</td></tr>
+      <tr><td>6</td><td>×</td><td>IDS</td><td></td><td>UCSにない漢字や、UCSでは字体が不明確な場合に、補足情報として記される場合があります。</td></tr>
+      <tr><td>7</td><td>×</td><td>大漢和番号</td><td>Dxxxx.y</td><td>同じ形で、かつ音・義が異なる大漢和の文字がある場合に、補足情報として記される場合があります。</td></tr>
+      <tr><td>8</td><td>×</td><td>UCS符号</td><td>U+xxxxx</td><td>大漢和辞典に記載がないUCS漢字の異体字がある場合に、補足情報として記される場合があります。（複数可）</td></tr>
+      <tr><td>9</td><td>×</td><td>欠番情報</td><td>missing</td>
+      <td>当該大漢和番号が、修訂第二版で欠番の場合は、その情報を“missing”として表記します（174文字）。
+      <ul>
+        <li>“missing[0]”：縮寫版での欠番（3文字）を示します。</li>
+        <li>“missing[1]”：修訂第一版での欠番（17文字）を示します。</li>
+        <li>“missing[2]”：修訂第二版での欠番（3文字）を示します。</li>
+      </ul>
+      なお“missing[x]”表記の直後に “→ Dxxxxx.y”と表記されている場合は、修訂第二版での移動先を示します。
+      </td></tr>
+    </table>
+
+    </td><td>　　　　　</td><td>
+
+    <table border="" align="right">
+      <caption>親字の記載巻数</caption>
+      <tr><th>大漢和番号</th><th>巻数</th></tr>
+      <tr><td>D00001.0〜</td><td> 1</td></tr>
+      <tr><td>D01450.0〜</td><td> 2</td></tr>
+      <tr><td>D04675.0〜</td><td> 3</td></tr>
+      <tr><td>D07411.0〜</td><td> 4</td></tr>
+      <tr><td>D11530.0〜</td><td> 5</td></tr>
+      <tr><td>D14415.0〜</td><td> 6</td></tr>
+      <tr><td>D17575.0〜</td><td> 7</td></tr>
+      <tr><td>D22678.0〜</td><td> 8</td></tr>
+      <tr><td>D28108.0〜</td><td> 9</td></tr>
+      <tr><td>D32804.0〜</td><td>10</td></tr>
+      <tr><td>D38700.0〜</td><td>11</td></tr>
+      <tr><td>D42210.0〜</td><td>12</td></tr>
+      <tr><td>D48903.0〜</td><td>13</td></tr>
+      <tr><td>DH0001.0〜</td><td>15</td></tr>
+    </table>
+  </td></tr>
+  </table>
+  <ul>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/dkw2ucs.txt">大漢和辞典⇔UCS対応表</a></li>
+    <li><a href="daikanwa.html">大漢和辞典とUCS漢字の関係</a></li>
+    <li><a href="daikanwa2.html">UCSにない大漢和辞典の漢字</a></li>
+  </ul>
+</div>
+
+
+<!--div id="cns2ucs">
+  <h2>CNS 11643⇔大漢和辞典修訂第2版＆ＵＣＳ対応表</h2>
+  <p><a href="http://www.cns11643.gov.tw">CNS 11643</a>から、大漢和辞典の番号およびＵＣＳ符号位置への対応表です。</p>
+  <p>CNS 11643の漢字と、大漢和の漢字は多くの場合、１：１で対応します。しかし、CNS・大漢和は、ＵＣＳとは１：１で対応しません（１：ｎに対応するものは、その残りをU+2F800からのCJK Compatibility Supplementに入れています）。これは、ＣＮＳとＵＣＳの文字の同一性の基準が異なるためです。本対応表は、一旦大漢和番号をＣＮＳを経由してＵＣＳに対応させることで、可能な限り、CJK Compatibility Supplement も含めたＵＣＳ空間へ大漢和辞典の文字を対応づけることを目指しています。</p>
+  <p>本対応表は、CNS 11643に記載された部首・画数の情報を含んでいます。</p>
+  <ul>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/cns2ucsdkw.txt">CNS 11643⇔大漢和辞典修訂第2版＆ＵＣＳ対応表</a></li>
+  </ul>
+</div-->
+
+
+<!--div id="gb2ucs">
+  <h2>ＧＢ⇔ＵＣＳ対応表</h2>
+  <p>ＧＢ⇔ＵＣＳ対応表は、中国の GB2312, GB7589, GB7590 の漢字符号とＵＣＳの対応表です。現在、GB7589, GB7590の漢字と Unicode/UCS の公式な対応表は存在しません。</p>
+  <ul>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/gb2ucs.txt">ＧＢ⇔ＵＣＳ対応表</a></li>
+  </ul>
+</div-->
+
+
+<div id="variants">
+  <h2>異体字データベース</h2>
+  <p><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/variants">異体字データベース</a>は、各種文献に記載されている異体字情報を収集・整理したものです。これらは情報処理学会 試行標準 IPSJ-TS 0008:2007 <a href="http://www.itscj.ipsj.or.jp/ipsj-ts/ts0008/toc.htm">「大規模漢字集合の異体字構造」</a>に記載されている異体字情報と、基本的には同一のものです。なお、UCSでは包摂されるか、表現できないものは U+0FFFD で記載されています。</p>
+  <table border="">
+    <tr><td><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/variants/variants-jisx0212.txt">variants-jisx0212.txt</a></td>
+    <td> JIS X 0212に記載されている異体字 (JIS X 0208 同士を含む)</td></tr>
+    <tr><td><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/variants/variants-jisx0213.txt">variants-jisx0213.txt</a></td>
+    <td> JIS X 0213に記載されている異体字 (JIS X 0208 同士を含む)</td></tr>
+    <tr><td><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/variants/variants-ucs-scs.txt">variants-ucs-scs.txt</a></td>
+    <td> ISO/IEC 10646 Annex S.3 例字（原規格分離一覧表）</td></tr>
+    <!--tr><td>variants-ucs-compat.txt  </td><td> ISO/IEC 10646 の互換漢字</td></tr-->
+    <tr><td><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/variants/kakikae.txt">kakikae.txt</a></td>
+    <td> 第32回国語審議会総会報告（1956年）原文</td></tr>
+    <tr><td><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/variants/replaceables-douon.txt">replaceables-douon.txt</a></td>
+    <td> 上記に基づく書き換え一覧。# asahi とコメントがあるものは、朝日字体によるもの、# context-dependent とコメントがあるものは、熟語に依存するもの。</td></tr>
+    <tr><td><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/variants/variants-joyo.txt">variants-joyo.txt</a></td>
+    <td> 常用漢字表に掲出する新旧字</td></tr>
+    <tr><td><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/variants/variants-jinmei2-1.txt">variants-jinmei2-1.txt</a></td>
+    <td> 人名漢字表 別表２の１で同一の字種とされる漢字</td></tr>
+    <tr><td><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/variants/variants-jinmei2-2.txt">variants-jinmei2-2.txt</a></td>
+    <td> 人名漢字表 別表２の２で規定される異体字</td></tr>
+    <tr><td><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/variants/variants-hyogai.txt">variants-hyogai.txt</a></td>
+    <td> 表外漢字字体表での印刷標準字体と簡易慣用字体</td></tr>
+    <tr><td><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/variants/variants-dypytz.txt">variants-dypytz.txt</a></td>
+    <td> 第一批異体字整理表（1997年版、795組1025異体字）</td></tr>
+    <!--tr><td>variants-jhzzb.txt      </td><td> 中国簡化字総表第１表・第２表</td></tr-->
+    <tr><td><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/variants/variants-hydzd.txt">variants-hydzd.txt</a></td>
+    <td> 漢語大字典 異体字表 （第二・第三カラムは簡体字です。UCSで統合される異体字については、「#」以降に差異を注記しています。）</td></tr>
+    <tr><td><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/variants/replaceables-hydzd.txt">replaceables-hydzd.txt</a></td>
+    <td> 漢語大字典 通假字表 （第一カラムはページ数）</td></tr>
+    <tr><td><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/variants/variants-extra.txt">variants-extra.txt</a></td>
+    <td> 上記のいずれにも記載がない異体字関係。（異体字分析などにより抽出しているものを含むため、必ずしも信頼できるとは限りません。）</td></tr>
+  </table>
+</div>
+
+
+<div id="similar-chars">
+  <h2>ＵＣＳ類似漢字一覧表</h2>
+  <p>類似漢字表は、形が似ていても、大漢和辞典や康煕字典において音義が異なるＵＣＳ漢字の一覧表です。康煕字典の「辨似」の記述などを参考にしています。</p>
+  <ul>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/similar-chars.txt">ＵＣＳ類似漢字一覧表</a></li>
+  </ul>
+</div>
+
+
+<div id="duplicate-chars">
+  <h2>ＵＣＳ重複漢字一覧表</h2>
+  <p>重複漢字一覧表は、ＵＣＳ統合漢字において、同一字形で大漢和辞典・康煕字典では「音・義」の違いが見られない文字が、異なる符号位置に重複して符号化されているものの一覧表です。
+  同じ字形かどうかは、漢字の字形の差異が<a href="#housetsu">UCS漢字の統合・包摂規準</a>に該当しないほど些細な違い（止め・はねや、線の相対的な長さの違い等）しかないかどうかで判断します。</p>
+  <!--p>たとえばUCSの規格表において、「煴（U+07174）」の中国・台湾の字形と「熅（U+07185）」の韓国の字形はほぼ同一であり、同じIDS文字列（⿰火昷）を持つことができるため、本表に含まれています。</p-->
+  <ul>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/duplicate-chars.txt">ＵＣＳ重複漢字一覧表</a></li>
+    <li><a href="duplicate-chars.html">ＵＣＳ重複漢字一覧表（HTML版）</a></li>
+  </ul>
+</div>
+
+
+<!--div id="unifiable-parts">
+  <h2 id="unifiable-parts">ＵＣＳ統合可能漢字部品文字一覧表</h2>
+  <p>ＵＣＳ統合可能漢字部品文字一覧表は、ISO/IEC 10646:2003 Annex SのS.1.5, S.3や、漢字表（互換漢字を含む）において、CJK間で統合された漢字の差異となる部品の一覧を示します
+  （例：示(U+0793A)と礻(U+0793B)、食(U+098DF)と飠(U+098E0)と𩙿(U+2967F)など）。
+  </p>
+  <p>本表を参照することで、漢字の符号化にあたり、ＵＣＳではどの部品を同一視する可能性があるかを確認できます。</p>
+  <ul>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/identity-parts.txt">ＵＣＳ統合可能漢字部品文字一覧表（準備中）</a></li>
+  </ul>
+</div-->
+
+
+<!--div id="unifiable-chars">
+  <h2>ＵＣＳ統合可能漢字一覧表</h2>
+  <p>ＵＣＳ統合可能漢字一覧表は、符号としては本来は同一である可能性が高い漢字の一覧表です。統合可能性がある漢字とは、ISO/IEC 10646:2003 付属書Ｓによって解析された字形の違いが部品漢字として明確にされ、その部品が本表または「ＵＣＳ統合可能漢字部品文字一覧表」に記載されており、かつ辞書によって音義の違いが明らかではないものとします。</p>
+  <ul>
+    <li><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/identity-chars.txt">ＵＣＳ統合可能漢字一覧表（準備中）</a></li>
+  </ul>
+</div-->
+
+
+<div id="font">
+  <h2>漢字フォント</h2>
+  <p>漢字データプロジェクトでは、フリーなフォントの整備を行っています。成果となるフォントは『花園明朝』と名付けられ、<a href="http://fonts.jp/hanazono/">別サイト</a>にて公開されています。現在、第二水準までの計6,356文字が用意されており、字形編集ウィキである<a href="http://fonts.jp/glyphwiki/">GlyphWiki</a>により誰もが簡単に拡張・編集することができるようになっています。なお、本フォントは漢字のみで構成され、「ひらがな」等はありませんのでご注意ください。</p>
+</div>
+
+
+<!--div id="misc">
+  <h2>その他</h2>
+  <p>その他に、本プロジェクトでは以下のデータの整備も行っています。</p>
+  <dl>
+    <dt><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/jis2ucsdkw.txt">jis2ucsdkw.txt</a></dt>
+    <dd>JIS X 0213:2004 ⇔ UCS, 諸橋大漢和辞典修訂第2版 対応表</dd>
+    <dt><a href="http://kanji-database.cvs.sourceforge.net/kanji-database/kanji-database/data/unirs.txt">unirs.txt</a></dt>
+    <dd>UCS 部首・部首内画数・総画数 (開発中)</dd>
+  </dl>
+</div-->
+
+<div id="links">
+  <h2>リンク集</h2>
+  <h3>関連サイト・他の漢字データベース</h3>
+  <ul>
+    <li><a href="http://www.hanazono.ac.jp">花園大学</a>
+    <a href="http://iriz.hanazono.ac.jp">国際禅学研究所</a>
+    <a href="http://kura.hanazono.ac.jp/kanji/">漢字処理研究室</a></li>
+    <li>CHISE Project [<a href="http://kanji.zinbun.kyoto-u.ac.jp/projects/chise/index.html.ja">京都大学人文科学研究所]</a> [<a href="http://cvs.m17n.org/chise/index.html.ja">m17n.org</a>]</li>
+    <li><a href="http://www.karitsu.org">過立齋</a></li>
+    <li><a href="http://fonts.jp">fonts.jp</a></li>
+    <li><a href="http://glyphwiki.org">glyphwiki.org</a></li>
+    <li><a href="http://joao-roiz.jp/HNG/search/start">漢字字体規範データベース</a></li>
+  </ul>
+  <h3>大漢和辞典</h3>
+  <ul>
+    <li><a href="http://kanji.zinbun.kyoto-u.ac.jp/~yasuoka/ftp/CJKtable/Uni2Dict.Z">大漢和−ＵＣＳ対応表（安岡孝一）</a></li>
+    <li><a href="http://members.at.infoseek.co.jp/yunzukudo/download.html">大漢和辞典・修訂１版での欠番リスト</a>（工藤祐嗣）</li>
+    <li><a href="http://hp.vector.co.jp/authors/VA000964/html/daikanwa.htm">大漢和辞典・修訂版と縮刷版の差異</a>（福田雅史）</li>
+  </ul>
+</div>
+
+<div id="standards">
+  <h2>漢字コード標準・規格関連情報</h2>
+
+  <h3>ISO/IEC 10646:2003</h3>
+  <p>2006年現在、ISO/IEC 10646:2003、ISO/IEC 10646:2003/Amd 1:2005、ISO/IEC 10646:2003/Amd2:2006は一般に<a href="http://standards.iso.org/ittf/PubliclyAvailableStandards/index.html">PDFで公開</a>されています。</p>
+  <dl>
+    <dt>箇条33 "Code tables and lists of character names"</dt>
+    <dd>
+      0面（BMP）および2面にて、漢字が定義されています。
+      <ul>
+        <li> 0面（BMP）の漢字は、日本・中国・韓国・台湾・ベトナムの字形が併記されています（互換漢字などを除く）。ただし、URO(Unified Repertoire and Ordering V2.0)のベトナムの字形は台湾と同一です。</li>
+        <li>ISO/IEC 10646:2003/Amd 1:2005では、9FA6〜9FBBに幾つかの漢字が追加されました。</li>
+        <li>ISO/IEC 10646:2003/Amd 1:2005では、箇条33の拡張Bの13漢字でグリフが修正されています。そのうち29FCEは JIS X 0213 の2面94区5点の出版直前に変更されたグリフの形状に追随しています。</li>
+      </ul>
+    </dd>
+    <dt>付属書A "Collections of graphic characters for subsets"</dt>
+    <dd>
+      Collection（組）は、UCS文字集合のサブセットを定めます（箇条12）。情報交換の際にどの組を使うかは、JIS X 0211制御符号を用いて指定したり（箇条16.3）、ASN.1による情報交換でも指定できます（箇条N.2）。文字未定義な符号がなく、将来にわたって変更されない組は Fixed Collection （確定組）と呼ばれます（箇条4.19）。漢字が主体となる組として以下が規定されています。（数字は組番号です。）
+      <dl>
+        <dt>60 CJK UNIFIED IDEOGRAPHS</dt> <dd>4E00-9FFFに含まれる漢字の組です。</dd>
+        <dt>62 CJK COMPATIBILITY IDEOGRAPHS</dt> <dd>F900-FAFFに含まれる漢字の組です。</dd>
+        <dt>81 CJK UNIFIED IDEOGRAPHS EXTENSION A</dt> <dd> 3400-4DBF FA1F, FA23 に含まれる漢字の組です。</dd>
+        <dt>370 IICORE </dt> <dd>IICORE (International Ideograph CORE Set) は東アジアの一般漢字利用者が日常的に使用する漢字の確定組です。
+        <ul>
+          <li>IICOREの9,810文字には、JIS第一水準2,966文字（「仝」を含む）の全てが、第二水準3,390文字のうち2,729文字が、第三水準1,259文字中のうち666文字が、第四水準の2,436文字のうち636文字が含まれています。</li>
+          <li>IICOREには日本ソースの文字が4,593文字あり、それらはJIS第一水準の2,943文字、第二水準の1,617文字、第三水準の28文字、第四水準の帮・惲・竑の3文字および、JIS X 0213に含まれない2文字（閒・髙）から構成されます。なお「髙」は日本の単独ソース文字です。</li>
+          <li>IICOREには拡張Bの漢字が64文字含まれています。これらは香港や澳門がソースとなっています。</li>
+          <li>IICOREの制定は情報処理学会の試行標準（IPSJ-TS0005）がきっかけとなっています。（参考：<a href="http://www.itscj.ipsj.or.jp/pr/itscj/PR_SC2-gh_10646Amd1.pdf">情報規格調査会のプレスリリース</a>）</li>
+          <!--li>Unicode Consortiumで配布しているUnihan.txtには、香港ソースの「㓤(U+034E4)」がIICoreに含まれていません。</li-->
+        </ul>
+      </dd>
+      <dt>382 CJK UNIFIED IDEOGRAPHS-2005</dt> <dd> UCS統合漢字の確定組です。3400-4DB5, 4E00-9FBB, FA0E-FA0F, FA11, FA1F, FA21, FA23-FA24, FA27-FA29, 20000-2A6D6から構成されます。これらは UROの20,902文字、拡張A漢字の6,584文字、それ以外のBMPの統合漢字30文字、そして拡張B漢字の42,711文字から構成されます。</dd>
+      <dt>383 CJK COMPATIBILITY IDEOGRAPHS-2005</dt> <dd>UCS互換漢字の確定組です。F900-FA0D, FA10, FA12, FA15-FA1E, FA20, FA22, FA25-FA26, FA2A-FA6A, FA70-FAD9, 2F800-2FA1Dから構成されます。これらはCJK互換漢字の455文字、CJK互換漢字補助の542文字から構成されます（FA2E, FA2Fは未定義です）。</dd>
+      <dt>2001 CJK UNIFIED IDEOGRAPHS EXTENSION B</dt> <dd>20000-2A6DF に含まれる漢字の組です。</dd>
+      <dt>2002 CJK COMPATIBILITY IDEOGRAPHS SUPPLEMENT</dt> <dd>2F8000-2FA1F に含まれる漢字の組です。</dd>
+      </dl>
+    </dd>
+    <dt>付属書F "Alternate format characters"</dt>
+    <dd>
+      <ul>
+        <li>箇条F.3 "Ideographic Description Characters" … IDS の用法等が記述されています。 </li>
+      </ul>
+    </dd>
+    <dt>付属書P "Additional Information on Characters"</dt>
+    <dd>
+      <ul>
+        <li>FA1F, FA23 … この２漢字はExt-Aとして扱うことを定めています。（それにも関わらず、FA23と同じ漢字が27EAFで重複して定義されています。）</li>
+        <li>9FB9, 9FBA, 9FBB … 20509, 2099D, 470C との関係が説明されています（ISO/IEC 10646:2003/Amd 1:2005）</li>
+      </ul>
+    </dd>
+    <dt>付属書S "Procedure for the unification and arrangement of CJK Ideographs"</dt>
+    <dd>
+      CJK統合漢字を制定する際の「同一性」の判断規準や手法を記述しています。
+      <ul>
+        <li>箇条S.1 … S1.4.3 に符号位置を分離する部品図形、S1.5に符号位置を統合する部品図形が例示されています。</li>
+        <li>箇条S.3 … 原規格分離の例が示されています。</li>
+      </ul>
+    </dd>
+  </dl>
+
+  <h3>Unicode</h3>
+  <p>Unicodeは、Unicodeコンソーシアムと呼ばれる民間の団体が定めた私的な文字コード規格です。ISO/IEC 10646と文字表が一致するように、規格を定めています。</p>
+  <ul>
+    <li><a href="http://www.unicode.org/cgi-bin/GetUnihanData.pl">Unihan</a>データベースは、Unicode漢字の部首・画数・意味・発音・異体字などの様々なデータを整備・公開しています。</li>
+    <li><a href="http://www.unicode.org/reports/tr37/">“UTR #37: Ideographic Variation Database”</a>は、Unicodeコンソーシアムに漢字の異体字を登録する手続きを定めています。</li>
+  </ul>
+
+  <h2>国際漢字コード規格関連組織</h2>
+  <h3>ISO/IEC JTC1/SC2/WG2/IRG</h3>
+  <p><a href="http://www.cse.cuhk.edu.hk/~irg/">ISO/IEC JTC1/SC2/WG2/IRG</a>は、国際16bit文字コード標準化団体である<a href="http://std.dkuug.dk/JTC1/SC2/WG2">WG2</a>の付託を受けて、漢字集合の策定などの作業を行っています。</p>
+  <ul>
+    <li><a href="http://www.cse.cuhk.edu.hk/~irg/irg/irg29/IRG29.htm">IRG N 1381</a>は、<b>拡張漢字B集合</b>のマルチカラムチャートの最新ドラフトです。拡張漢字B集合は2002年に制定されましたが、例示字形は１書体しかありませんでした。今後、この表は６欄併記に改められる予定です。</li>
+    <li><a href="http://www.cse.cuhk.edu.hk/~irg/irg/irg29/IRGN1351CJKCv10.zip">IRG N 1351</a>は、<b>拡張漢字C集合</b>の最新ドラフトです。拡張漢字C集合はほぼfixされており、特に問題がなければ、ISO/IEC 10646:2003 Amendment 5 で制定される予定です。</li>
+    <li><a href="http://www.cse.cuhk.edu.hk/~irg/irg/irg29/IRG29.htm">IRG N 1353</a>は、<b>拡張漢字D集合</b>の最新ドラフトです。拡張漢字D集合は現在、拡張漢字Cに続く新しい漢字集合として審議中です。</li>
+    <li><a href="http://www.cse.cuhk.edu.hk/~irg/irg/irg29/IRGN1380_UNC.pdf">IRG N 1380</a>は、<b>『緊急に必要な文字集合』</b>の最新ドラフトです。『緊急に必要な文字集合』は、拡張漢字D集合の候補文字が締め切られた後に、各国で必要になった文字を集めたものです。</li>
+  </ul>
+
+  <h2>日本の漢字コード規格</h2>
+  <h3>JIS X 0208:1997</h3>
+  <h3>JIS X 0212:1990</h3>
+  <h3>JIS X 0213:2004</h3>
+  <h4>規格表のミスプリントについて</h4>
+  <p>2007年現在までの正誤表にはない以下のようなミスプリント・修正漏れが確認されています。</p>
+  <ul>
+    <li>包摂規準117の例に「蓖」が列挙されている。</li>
+    <li>附属書11箇条3.2において、「45-87 1-33-73」→「45-87 1-94-93」および「52-58 1-23-50」→「52-58 1-94-94」</li>
+    <li>解19ページ ５行目「ラテン小文字H」→「ラテン大文字H」</li>
+    <li>解21ページ 10行目「上アップタック（合成可能）」→「下アップタック（合成可能）」</li>
+  </ul>
+  <h3>Adobe-Japan1-6</h3>
+  <p>Adobe-Japan1-6は、Adobe社が独自に定めた日本語用文字のレパートリです。</p>
+  <ul>
+    <li><a href="http://partners.adobe.com/public/developer/en/font/5078.Adobe-Japan1-6.pdf">Adobe-Japan1-6 Character Collection for CID-Keyed Fonts</a></li>
+    <li><a href="http://kanji.zinbun.kyoto-u.ac.jp/~yasuoka/publications/JST2005-11.pdf">安岡孝一『Adobe-Japan1-6とUnicode — 異体字処理と文字コードの現実 』</a></li>
+    <li><a href="http://coe21.zinbun.kyoto-u.ac.jp/~yasuoka/publications/Adobe-Japan1kanji.pdf">安岡孝一『Adobe-Japan1の漢字(部首画数順)』</a></li>
+  </ul>
+  <h3>U-Press</h3>
+
+  <h2>日本の漢字コード規格関連団体</h2>
+  <h3>情報処理学会・情報規格調査会</h3>
+  <h3>汎用電子情報交換環境整備プログラム</h3>
+</div>  
+
+
+<div id="papers">
+  <h2>参考論文・発表・寄書など</h2>
+  <ul>
+    <li>川幡太一「新ISO/IEC 10646とUnicodeの漢字を検証する」（<a href="http://www.jaet.gr.jp/jj/2.html">『漢字文献情報処理研究』2</a>, Oct. 2001, ISBN4-87220-051-9）</li>
+    <li>川幡太一「国際的な漢字符号の規格化における問題について」（東洋学へのコンピュータ利用第16回研究セミナー）</li>
+    <li>川幡太一「IDSによるUCS漢字の『同一性』の判定手法」（東洋学へのコンピュータ利用第17回研究セミナー）</li>
+    <li>川幡太一「UCSの統合漢字から見る包摂規準」（東洋学へのコンピュータ利用第18回研究セミナー）</li>
+    <li>川幡太一「漢字・甲骨文字などに関する標準化の最新動向」（2005年漢字文献情報処理研究会・年次大会発表）</li>
+    <li>KAWABATA, Taichi　“Algorithm for Identifying the Duplicate Ideograph Characters by the IDS.”（<a href="http://www.cse.cuhk.edu.hk/~irg/irg/irg25/IRGN1154_IDS_Algorithm.pdf">ISO/IEC JTC1/SC2/WG2 IRG N 1154</a>）</li>
+    <li>KAWABATA, Taichi　“Possible multiple-encoded Ideographs in the UCS.”（<a href="http://www.cse.cuhk.edu.hk/~irg/irg/irg25/IRGN1155_Possible_Duplicates.pdf">ISO/IEC JTC1/SC2/WG2 IRG N 1155</a>）</li>
+  </ul>
+</div>
+
+</body>
+</html>

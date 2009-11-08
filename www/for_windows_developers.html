@@ -1,0 +1,212 @@
+<!DOCTYPE html public "-//W3C//DTD HTML 4.0//EN">
+<HTML lang=ja>
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<LINK rev=made href="mailto:moro@ya.sakura.ne.jp">
+<TITLE>Kanji Database Project: Windowsで開発に参加する方法</TITLE>
+<LINK rel=stylesheet href="kanjidb.css" type="text/css">
+</HEAD>
+<BODY lang=ja>
+
+<H1>Kanji Database Project: Windowsで開発に参加する方法</H1>
+
+<HR>
+<!--htmlex_CONTENTS H2="" H3="" H4=""-->
+<UL>
+	<LI><A href="#0001">はじめに</A>
+	<LI><A href="#0002">ツールの入手とインストール</A>
+	<UL>
+		<LI><A href="#000201">CVSクライアント</A>
+		<LI><A href="#000202">SSHクライアント</A>
+		<LI><A href="#000203">Unix環境</A>
+	</UL>
+	<LI><A href="#0003">SourceForgeサーバへの接続</A>
+	<UL>
+		<LI><A href="#000301">SSHで接続する</A>
+		<LI><A href="#000302">WinCVSで接続</A>
+	</UL>
+	<LI><A href="#0004">実際の作業</A>
+</UL>
+<!--htmlex_CONTENTS_END-->
+<HR>
+
+<H2><A name=0001>はじめに</A></H2>
+
+<P>この文書は、<A href=index.html>Kanji Database Project</A>に参加したいものの、CSVやUnixに親しみがなく敷居の高さを感じている文系Windowsユーザ（笑）のために書かれたものです。内容については当然、無保証ですので、何らかの不具合があっても一切責任を持ちませんし、ソフトウェアはどんどんバージョンアップしていくので、すぐに使い物にならなくなるかもしれません。また、筆者はWindows 2000 Professionalしか持っていないので、他の環境については書くことが出来ません。あらかじめご容赦ください。</P>
+
+<P>開発に参加するには、以下に説明するツール類のほかに、</P>
+
+<UL>
+	<LI><A href="http://sourceforge.net/">SourceForge</A>のアカウント</LI>
+	<LI><A href="http://kanji-database.sourceforge.net/">Kanji Database Project</A>の開発者権限</LI>
+</UL>
+
+<P>が必要です。前者はホームページ上で簡単に取得できます。後者については管理者（<A href="http://sourceforge.net/users/moroshigeki/">moroshigeki</A>、<A href="http://sourceforge.net/users/kawabata/">kawabata</A>）にお尋ねください。</P>
+
+<H2><A name=0002>ツールの入手とインストール</A></H2>
+
+<H3><A name=000201>CVSクライアント</A></H3>
+
+<P>Windows用のCVSは、以下のソフトウェアが使いやすいでしょう。</P>
+
+<UL>
+	<LI><A href="http://cvsgui.sourceforge.net/index.html">WinCVS 1.2</A>（GUIのCVSクライアント・英語版）</LI>
+	<LI><A href="http://www.kmc.kyoto-u.ac.jp/~slakichi/barn/">WinCVS 1.2のShift-JIS ごった煮版</A>（WinCVSを日本語化したもの。英語版で平気な人はいらない）</LI>
+</UL>
+
+<P>WinCVS 1.2は、ダウンロードしたファイル（<CODE>WinCvs120.zip</CODE>）を解凍し、<CODE>SETUP.EXE</CODE>を実行するとインストールできます。</P>
+
+<P>日本語化する場合には、ごった煮版のバイナリ（<CODE>wincvs120-sjis_gottani.20010327.bin.lzh</CODE>）をダウンロードしてから解凍し、そのファイルを英語版WinCVS 1.2（デフォルトのフォルダは<CODE>C:\Program Files\GNU\WinCvs 1.2\</CODE>）に上書きすればメニューなどが日本語化します。</P>
+
+<H3><A name=000202>SSHクライアント</A></H3>
+
+<P>データを自分のところにダウンロードするだけなら必要ありませんが、作業した結果をSourceForgeのサーバに格納（コミット）するには、SSHクライアントが必要です。</P>
+
+<UL>
+	<LI><A href="http://core.ring.gr.jp/archives/net/ssh/SSHWin-2.4.0-pl2.exe">SSH 2.4.0</A></LI>
+</UL>
+
+<P>インストールは、ダウンロードしたファイル（<CODE>SSHWin-2.4.0-pl2.exe</CODE>）を実行します。</P>
+
+<P>インストール後、SSHをインストールしたフォルダ（インストール時に特に設定しなければ、<CODE>C:\Program Files\SSH Communications Security\SSH Secure Shell</CODE>）にある<EM><CODE>ssh2.exe</CODE>というファイルの名前を<CODE>ssh.exe</CODE>に変更します。</EM></P>
+
+<H3><A name=000203>Unix環境</A></H3>
+
+<P>Windows上でUnixのコマンドを動かすものとしては、cygwin等があります。</P>
+
+<UL>
+	<LI><A href="http://sources.redhat.com/cygwin/download.html">cygwin</A></LI>
+</UL>
+
+<P>インストール方法については、「<A href="http://www.sosb.com/hp/apache/cygwin.htm">ちょ～簡単Cygwin のinstall</A>」を参照してください。</P>
+
+<H2><A name=0003>SourceForgeサーバへの接続</A></H2>
+
+<H3><A name=000301>SSHで接続する</A></H3>
+
+<P>SSH経由で、<CODE>cvs.kanji-database.sourceforge.net</CODE>にログインします。インターネットに接続している状態でコマンドプロンプトを立ち上げ、</P>
+
+<PRE class=console>
+C:\>ssh -l あなたのアカウント名 cvs.kanji-database.sourceforge.net
+</PRE>
+
+<P>と入力します。「あなたのアカウント名」のところはそれぞれユーザによって異なります。入力すると、</P>
+
+<PRE class=console>
+Host key not found from database.
+Key fingerprint:
+ひとそれぞれ-ひとそれぞれ-ひとそれぞれ---
+You can get a public key's fingerprint by running
+% ssh-keygen -F publickey.pub
+on the keyfile.
+Are you sure you want to continue connecting (yes/no)? yes
+</PRE>
+
+<P>と表示されますので、続行するためにyesと入力します。すると、</P>
+
+<PRE class=console>
+Host key saved to ひとそれぞれ
+host key for cvs.kanji-database.sourceforge.net, accepted by moro Tue May 08 2001 13:22:20
+あなたのアカウント名's password:
+</PRE>
+
+<P>と表示されますので、SourceForgeのパスワードを入力します（ただし、画面には表示されない）。</P>
+
+<PRE class=console>
+Authentication successful.
+Last login: Wed May  2 12:54:16 2001 from ひとそれぞれ
+
+Most of the programs included with the Debian GNU/Linux system are
+freely redistributable; the exact distribution terms for each program
+are described in the individual files in /usr/doc/*/copyright
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+
+Welcome to cvs.sourceforge.net
+
+This is a restricted Shell Account
+You cannot execute anything here.
+
+Connection to cvs.kanji-database.sourceforge.net closed.
+
+C:\>
+</PRE>
+
+<P>これで、SSHの準備ができました。</P>
+
+<H3><A name=000302>WinCVSで接続</A></H3>
+
+<P>WinCVSを起動し、以下のとおり設定を行います（プロキシなどの設定はそれぞれやってください）。</P>
+
+<OL>
+	<LI>メニューの［管理］→［設定］を開く。</LI>
+	<LI>［CVSROOT（CVSリポジトリの場所）を入力］に「あなたのアカウント@cvs.kanji-database.sourceforge.net:/cvsroot/kanji-database/」を入力。</LI>
+	<LI>［認証方法］は「SSH 経由で接続」とする。</LI>
+</OL>
+
+<P>次にkanji-databaseのCVSサーバに接続し、チェックアウト（サーバに作業用コピーを要求すること）します。</P>
+
+<OL>
+	<LI>メニューの［作成］→［チェックアウト］を開く。</LI>
+	<LI>［モジュールの名前又はサーバ上のパスを入力］に「kanji-database」を入力。</LI>
+	<LI>［ローカルディスク上のチェックアウト先］に、ダウンロード先（例えば<CODE>C:\kanji-database</CODE>）を入力。</LI>
+</OL>
+
+<p>ここでOKを押すと、チェックアウトされます。</p>
+
+<H2><A name=0004>実際の作業</A></H2>
+
+<p>ファイル一行目の、</p>
+
+<PRE># $Id: for_windows_developers.html,v 1.1 2002/02/07 01:25:54 moroshigeki Exp $</PRE>
+
+<p>は、自動的に変更されるので勝手にいじらないで下さい。</p>
+
+<p>ローカルディスクにあるファイルを変更して（WinCVS上では、アイコンが赤い色になる）サーバに反映させたい場合は、</P>
+
+<OL>
+	<LI>そのファイルを選択してメニューの［修正］→［格納（coMmit）］（あるいは右クリックの［格納（coMmit）］）をクリック。</LI>
+	<LI>［更新ログ］に、変更内容を英語で書き込む（これはあとあと見直すときに必要なので<EM>具体的に</EM>書く）。</LI>
+	<LI>別ウィンドウでコマンドプロンプトが起動するので、パスワードを入力する。</LI>
+</OL>
+
+<p>という手順で、サーバのファイルを更新します。</p>
+
+<p>誰か他の人が更新した結果を自分のローカルファイルに反映したい場合には、</p>
+
+<OL>
+	<LI>そのファイルを選択してメニューの［修正］→［更新（Update）］（あるいは右クリックの［更新（Update）］）をクリック。</LI>
+	<LI>別ウィンドウでコマンドプロンプトが起動するので、パスワードを入力する。</LI>
+</OL>
+
+<p>という手順でローカルファイルを更新します。</p>
+
+<H3>競合（conflict）した場合</H3>
+
+<p>ファイルを変更しコミットしようとしても、次のようなエラーが出ることがあります。</p>
+
+<PRE>
+cvs server: Up-to-date check failed for `index.html'
+cvs [server aborted]: correct above errors first!
+</PRE>
+
+<p>これは共同作業者の誰かがあなたの作業中にファイルを修正したことを示します。この場合はファイルをアップデートして、変更結果をマージします。しかし、他の人とあなたが、同じ箇所を別々に修正したために、競合（コンフリクト）が起きる場合があります。その場合、ファイルをアップデートすると競合した箇所が次のようになっていると思います。</p>
+
+<PRE>
+<<<<<<< index.html
+            もともと包摂された文字が台湾字形主導で変更された例。
+=======
+            もともと包摂された文字が中国字形主導で変更された例。
+>>>>>>> 1.14
+</PRE>
+
+<p>上があなたのファイル、下が他の人の変更です。この例では「台湾」「中国」の部分がぶつかっています。この部分を適切に修正し（場合によっては競合した人と話し合って）、コミットします。</p>
+
+<HR>
+<ADDRESS>
+mailto: <A href="http://sourceforge.net/users/moroshigeki/">moroshigeki</A>
+Last update: 2001/May/14
+</ADDRESS>
+</BODY>
+</HTML>
