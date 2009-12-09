@@ -13,7 +13,7 @@
 丑	giấu, sấu, sửu, xấu
 丒	giấu
 丏	miện
-V+60873	nghi, ngờ
+𪟽	nghi, ngờ	# V+60873
 丕	bậy, chăng, chẳng, phi, phỉ, vầy, vậy
 丙	biếng, bính
 𠀖	khạng
@@ -21,11 +21,11 @@ V+60873	nghi, ngờ
 𠀗	khệnh
 V+60957	ngơ
 V+60000	nôm
-V+607FC	tềnh
-⿱上丁	tềnh	#  [V04-4022]
+卡	tềnh	# [V+607FC]
+⿱上丁	tềnh	# [V04-4022]
 且	thả, vả, vã
 世	thá, thay, thé, thể, thế
-V+60001	chăng
+⿱丶丕	chăng	# [V+60001]
 丞	chẳng, thừa
 丢	đâu, điêu, đốc
 𫔬	muôn
@@ -58,14 +58,14 @@ V+6078C	bơ
 ⿱上車	trên	# [V+60006]
 ⿱低下	trũng	# [V04-402E]
 𠀿	xuôi
-⿰下吹	xuôi    # [V+60007]
-V+60008	xuống
+⿰下吹	xuôi	# [V+60007]
+⿱宀⿺冘下	xuống	# [V+60008]
 V+60152	xuống
 𠁂	đứa
 ⿰丘会	gũi	# [V04-4033]
 𠁄	luồn
 ⿰下侖	luồn	# [V04-4031]
-V+6002D	rơi
+⿰來下	rơi         # [V+6002D]
 ⿰突下	sụt	# [V04-4036]
 ⿰率下	tuột	# [V04-4035]
 ⿱上俸	bổng	# [V04-4039]
@@ -74,7 +74,6 @@ V+607F1	chất
 ⿺連上	lên, trên	# [V04-403F]
 ⿱上能	nâng, nưng	# [V04-403B]
 ⿱不信	ngờ	# [V04-4037]
-⿰並生	sánh	# [V04-403D]
 ⿱上消	têu	# [V04-403A]
 ⿱上捉	trốc	# [V04-4038]
 ⿺竜下	xuống	# [V04-403E]
@@ -82,7 +81,7 @@ V+607F1	chất
 ⿱上情	tành	# [V04-4040]
 ⿱上登	dâng	# [V04-4041]
 𠁔	sánh
-V+60B69	sánh
+⿰甹並	sánh	# [V+60B69]
 ⿰尋下	tắm	# [V04-4042]
 𠁙	chả
 𣍋,𠁚	cúi
@@ -114,7 +113,7 @@ V+607B7	cạ
 V+6000C	lạy
 𠁸	suốt
 𠁹,𠁵	giữa
-V+6000D	chuỗi
+⿰串遂	chuỗi	# [V+6000D]
 𠁺	xuyên
 ⿰雉串	chuỗi	# [V04-404E]
 𠁻	chuỗi
@@ -128,7 +127,7 @@ V+6000D	chuỗi
 主	chủ, chủa, chúa
 ⿰乃亇	nảy	# [V04-4050]
 ⿰夷之	gỡ	# [V04-4051]
-V+60906	gì
+⿰而之	gì	# [V+60906]
 # Bộ phiệt   丿
 丿	phảy, phất, phết, phịch, phiết, phiệt, phít, phút
 乀	phật
@@ -137,9 +136,9 @@ V+60843	rẻ, tiền
 乂	nghệ
 V+6077F	nháy
 𠂎	ấy
-V+6000E	ấy
+	ấy	# [V+6000E]
 久	cửu
-V+6080D	nẩy
+⿰乃𡿨	nẩy	# [V+6080D]
 之	chi, dì, gì, giây
 V+60798	dã
 尹	doãn, duẫn
@@ -152,13 +151,13 @@ V+6086B	quy
 𠂪,𠂫	bèn
 乒	binh
 V+6000F	sở
-V+60010	khơi
+⿰台久	khơi	# [V+60010]
 乖	quai, quay
 V+607E6	đoạn
 乘	thắng, thặng, thừa
 ⿰乃是	nấy	# [V04-4052]
-V+60032	lính
-V+60011	lâu
+⿰令兵	lính	# [V+60032]
+⿰婁久	lâu	# [V+60011]
 𠃅	mái, mé
 ⿰久買	mãi	# [V04-4053]
 # Bộ ất   乙
@@ -223,20 +222,20 @@ V+60760	việc
 亞,亚	a, á
 𠄯	bẩn
 亟	cấc, cức, cực
-V+60016	gắng
-V+60017	giếng
-V+6001A	giếng
+⿰亙个	gắng	# [V+60016]
+⿰正井	giếng	# [V+60017]
+⿰井正	giếng	# [V+6001A]
 𠄳	kép
-V+60018	hai
+⿰台弍	hai	# [V+60018]
 𠄶	nhăm
-V+60019	vài
+⿱二非	vài	# [V+60019]
 𠄺	giếng
-V+6001B	vài
+⿱二拜	vài	# [V+6001B]
 𠄻	lăm, rằm
 ⿱林五	lăm	# [V04-4062]
 ⿰林五	rằm	# [V04-4063]
 𠄼	dăm, năm
-V+6001C	giăm
+⿰五咸	giăm	# [V+6001C]
 ⿰五南	năm	# [V04-4064]
 𠄽	vài
 ⿱二輕	nhẹ	# [V04-4065]
@@ -254,8 +253,8 @@ V+608D5	rắp
 亨	hanh, phanh
 京	ghềnh, kềnh, kiêng, kinh, kình
 享	hưởng
-𠅍,𠅎	mất
-𠅐,𠅒	mất
+𠅍,𠅒	mất
+𠅎,𠅐	mất
 ⿰殳亡	mất	# [V04-406A]
 亱	dạ
 亭	đành, đình, đứa, đừng, đứng, rành
@@ -332,7 +331,7 @@ V+60024	phật
 伕	phu
 伏	phục
 仳	tị
-V+60023	tịnh
+⿰亻井	tịnh	# [V+60023]
 伫	trữ
 企	xí
 伊	y
@@ -382,7 +381,7 @@ V+60025	lanh
 佰	bách
 佩	bội
 侅	cai, hời
-⿰亇丐	# ⿰？丐	cái	# [V04-4077]
+⿰亇丐	cái	# [V04-4077]
 佶	cát
 來,来	chày, lai, lài, lại, lay, lơi, ray, rây, rơi, rời, trái
 㑍	chỗi, lỗi, trỗi, truồi
@@ -627,8 +626,7 @@ V+608B3	liệng
 僕,仆	bọc, bộc, phó, phóc, phốc
 𠍥	bợm
 𠎨	cắp, cấp
-𠎫	chầu
-V+6074D	chầu
+𠎫	chầu	# [V+6074D]
 僱	cố
 僤	dạn, đạn
 𠍵	dáng, dạng, dường
@@ -665,7 +663,7 @@ V+6092C	tõi
 僓	xấp
 𠎊	xúm
 𠏟	bặm
-V+60036	bặm
+⿰亻禀	bặm	# [V+60036]
 ⿱偏乏	bẹp	# [V04-4140]
 ⿰備亇	bợ	# [V04-4141]
 儆	cảnh
@@ -732,7 +730,7 @@ V+60794	mấy
 ⿰傾呂	lả	# [V04-4150]
 𠑖	ngôi
 𠑕	ngửa
-V+60038	ngửa
+⿱𠇩疑	ngửa	# [V+60038]
 ⿱語𠇩	ngửa	# [V04-414F]
 ⿱傾征	chênh	# [V04-4154]
 儷,俪	lệ
@@ -827,14 +825,13 @@ V+60040	dữ, hăng, hưng, hứng
 兼	cồm, kem, kèm, kiêm, kiếm
 V+6084A	ngồi
 ⿰参八	tám	# [V04-4166]
+𠔭	tám	# [V+607A5]
 𠔦	lính
 𠔮	gồm
 V+60768	hưng
-𠔭	tám
-V+607A5	tám
 𪞍	gồm
 冀	kí
-V+608EE	sánh
+⿰並聘	sánh	# [V+608EE]
 # Bộ quynh   冂
 冂	quynh
 冇	mậu
@@ -855,7 +852,7 @@ V+6000B	sách
 冗	nhõng, nhùng, nhũng, nũng
 V+607C5	đăm, đem
 V+60779	đem
-V+60042	che
+⿱冖支	che	# [V+60042]
 V+60043	đem, đơm
 𠕻	xuống
 冠	quan, quán
@@ -910,8 +907,7 @@ V+6004A	căm
 凄	thê
 凈,净	tĩnh, tịnh
 凇	tùng
-𠗤	váng
-V+6004B	váng
+𠗤	váng	# [V+6004B]
 V+6004C	cóng
 减	giảm, xảm
 𪞧	ngắt
@@ -1088,9 +1084,9 @@ V+6005B	thái
 𠞠	chặt
 𠞡	gọt
 剴,剀	khải
-V+6005C	lời
-V+6005D	lời, trơi
-V+6005E	lưu
+⿱巨利	lời	# [V+6005C]
+⿱巴利	lời, trơi	# [V+6005D]
+⿰留刂	lưu	# [V+6005E]
 ⿰分沔	miền	# [V04-4234]
 創,创	sang, sáng
 剩	thặng
@@ -1142,7 +1138,7 @@ V+60061	rìu
 V+60B63	hiếm
 V+60B77	lớn
 𠠩	trước
-V+60065	trước
+⿰前畧	trước	# [V+60065]
 𠠭	chớm
 劗	giản
 劘	mi
@@ -1154,23 +1150,23 @@ V+60065	trước
 功	công
 勱,劢	mại
 劣	lẹt, liệt
-V+60803	ón
-V+60066	sức
-V+60856	thế
-V+608DB	thế
+⿰少力	ón	# [V+60803]
+⿱巨力	sức	# [V+60066]
+⿰世力	thế	# [V+60856]
+⿱世力	thế	# [V+608DB]
 助	chợ, chữa, đợ, rợ, trợ
 劬	cù
 劫	cướp, kép, kẹp, kiếp
-V+60067	đó
+⿰力石	đó	# [V+60067]
 𪟙	gắng
-V+60822	gia
+⿱㐅加	gia	# [V+60822]
 努	nỗ
 𠡎	rán, ráng
 𠡏	siêng
 劭	thiệu
 劼	cật
 𠡚	cứng, gắng, giãn
-V+60068	gắng
+⿰亙力	gắng	# [V+60068]
 劾	hạch, hặc, hếch, hệch
 効	hiệu
 劸	khoẻ, khuê
@@ -1182,8 +1178,8 @@ V+60068	gắng
 勁,劲	cứng, kình, kính
 ⿺九助	cưu	# [V04-4242]
 勇	dõng, dũng, rụng, xõng
-V+60069	gắng
-V+6006A	khướt
+⿰艮力	gắng	# [V+60069]
+⿱却力	khướt	# [V+6006A]
 勉	mễn, mến, miễn, mịn
 𠡧	rán, ráng, rắn, rặn, rấn, rớn, rướn
 勅	sắc
@@ -1192,7 +1188,7 @@ V+6006A	khướt
 勍	kình
 勑	lai, sắc
 ⿰力孟	mạnh	# [V04-4243]
-V+60804	rèng
+勐	rèng	# [V+60804]
 動,动	động, đụng
 勖	húc, hục
 勘	khám, khóm
@@ -1268,9 +1264,9 @@ V+608F3	gói
 匧,𠤿	tráp
 匪	phỉ
 匬	dũ, tủ
-匭,匦,匮	quỹ
+匭,匦	quỹ
 匯	hối, vị
-匱	quỹ
+匱,匮	quỹ
 匳	liêm
 ⿱區地	vùng	# [V04-4251]
 𠥤	giấu
@@ -1503,7 +1499,7 @@ V+60888	nghiệt
 V+608D4	ngừng
 𠯆	nhớ
 ⿰口凣	phòm	# [V04-4321]
-V+6007F	ré, rỉ, rĩ
+⿰口已	ré, rỉ, rĩ	# [V+6007F]
 𠮿	xôn
 吆	yêu
 呃	ách, ải, nhách
@@ -1514,7 +1510,7 @@ V+6007F	ré, rỉ, rĩ
 告	cáo, cáu, kiếu
 吸	cạp, cộp, gảp, gẳp, gặp, hấp, hớp, húp, hút, khốp, ngập
 V+607B6	câu
-V+60080	chắc
+⿱口仄	chắc	# [V+60080]
 吱	chê, chế, chi
 呈	chiềng, chường, dành, dưỡng, rềnh, rỉnh, trành, triềng, trình, xình
 𠯽	chửi, chưởi, rỉ, xỉ
@@ -1550,7 +1546,7 @@ V+60081	dìu, díu, trĩu
 V+60742	ngờ
 呀	nha, nhá
 𠰃	nhảm, nhằm, nhắm, nhầm, nhấm, nhồm
-V+60082	nhằn
+⿰口仁	nhằn	# [V+60082]
 𠯹	nhẵng, nhắng, nhâng
 吩	phàn, phân
 吠	phệ, phịa
@@ -1586,13 +1582,13 @@ V+60083	cắc
 呫	chễm, chiêm, chiếp, chỉm, chím, chòm, chõm, chòng, chùm, chúm, dụm, giụm, nhóm, xúm
 𠰪	chiếng
 𠰍	chõ, chủ, giỏ, giỗ, nhổ
-V+60087	chối, giối
+⿰口对	chối, giối	# [V+60087]
 咀	chớ, nhả, thó, thở, trớ, vả
 咒	chú
 ⿴囗払	chuồng	# [V04-444E]
 咕	cổ, quát
 咎	cữu
-V+60088	dãi
+⿰口汜	dãi	# [V+60088]
 𠰺	dái, dạy, dậy, đại, đẫy, đậy, vả
 呡	dăn, răn, vấn
 𠱆	dắng, dặng, dín, giắng
@@ -1613,7 +1609,7 @@ V+60088	dãi
 咂	hớp, táp, tọp, tốp
 呪	huếnh
 呿	hứ, khấư, khư, khứ, khứa
-V+60084	khảo
+⿰口尻	khảo	# [V+60084]
 𠰙	khen, nghiệt
 𠰷	lo, lơ, lua
 𠰌	mách, mạt
@@ -1637,7 +1633,7 @@ V+60084	khảo
 𠱀	phờ
 𠱍	phớm
 𠱅	quai
-V+60085	ré
+㕽	ré	# [V+60085]
 𠰩	rụng
 𠱊	sãi, sẽ
 𠰮	siêng
@@ -1649,7 +1645,7 @@ V+60085	ré
 呩	thĩ
 呲	thở, thử
 咏	vẳng, vắng, viếng, vính, vịnh
-V+60747	ven
+⿰口边	ven	# [V+60747]
 𠲞	adàng, dàng
 哀	ai
 咹	án, át, ăn
@@ -1668,7 +1664,7 @@ V+60747	ven
 㖂	dậy
 咦	di, gì, ri
 𠲧	dức, thức
-V+60089	dức
+⿰口羽	dức	# [V+60089]
 咷	đào, giệu, rệu, trêu, trệu, xạu
 𠲢	đau, đáu, réo, ríu
 哆	đe, đớ, đứ, sỉ, xỉ
@@ -1677,7 +1673,7 @@ V+60089	dức
 𠲖	e, è, ê, ề, ế, ơi
 咿	è, y
 𠲟	gạn
-V+608C8	gặp
+𠳖	gặp	# [V+608C8]
 𠲜	giành
 咬	giảo, rao
 𠲔	giẹt, nhiếc, riểc, siết
@@ -1687,14 +1683,13 @@ V+608C8	gặp
 ⿰台⿱匕匕	hay	# [V04-426A]
 咻	hiu, hưu
 𠲣	hoẻn, hoét, huýt
-咴	hoi, hôi, hồi, khôi
+咴	hoi, hôi, hồi, khôi	# [V+6008A]
 哄	hòng, họng, hống, ngọng, rống
-V+6008A	hôi
 咵	khoa
 咼,呙	khoa, oà, ua, ùa, uả
 㖆	khục
 哐	khuông
-V+60756	khuyên
+⿰口𠠼	khuyên	# [V+60756]
 咧	lác, liệt, sèn, sẹt, xẹt
 咾	lão, láo, làu, rảu
 𠲥	lẫy, lẽ, lể
@@ -1703,7 +1698,7 @@ V+60756	khuyên
 哞	mâu
 咪	mễ
 V+6097C	mời
-V+6008B	nau, nèo, niu
+⿰口⿱䒑巾	nau, nèo, niu	# [V+6008B]
 咢	ngác, ngạc
 哎	ngáy, ngửi
 咠	nghiện, tập
@@ -1731,8 +1726,8 @@ V+6008F	rểnh
 𠲨	trề
 嚌,哜	trơi
 㖅	tuất, tuếch
-V+6008D	văng
-V+6008E	ví
+⿰口冰	văng	# [V+6008D]
+⿱亦口	ví	# [V+6008E]
 𠱶	vổ
 哬	à, ha, hà, hờ, ờ
 唉	ai, hảy, hãy, háy, hễ, hĩ, hơi, hởi, hỡi
@@ -1744,7 +1739,7 @@ V+6008E	ví
 ⿰舌乏	bép	# [V04-432C]
 𠴠	biếng
 哹	bĩu
-⿰口⿱艹⿻𠘨𠄠	bong	# [V04-4335]
+⿰口⿱艹	bong	# [V04-4335]
 哺	bô, bồ, bỗ, bộ, bu, bù, bú, bụ, bua, pho, phò, phô, phù
 哱	bột, buột
 𪡈	bớ
@@ -1756,16 +1751,15 @@ V+6008E	ví
 哽	cánh, ngạnh, nghẹn
 哠	cáo, gào, hiệu, kiếu
 唅	căm, gầm, hàm, hăm, hằm, hầm, hợm, hụm, ngậm
-V+60090	chác
 𠲕	chăng	# [V04-433B]
 哳	chét, chít, sịt, triết, xịt
-V+6009C	chiêm
+⿰口秥	chiêm	# [V+6009C]
 𠴔	chiềng, chường, dành, rình, sính, trình, xính
 哲	chít, trết, triết, trít
 唧	cơ
-V+60091	cục
+⿰口局	cục	# [V+60091]
 唒	dạu, dẩu, dẫu, dấu, đau, đáu, giấu
-V+60092	diếc, dức
+⿰口役	diếc, dức	# [V+60092]
 𠴕	diễu, dìu, giễu
 唑	doạ, thệ
 𠴗	dỗ, đỏ, đổ, nhổ, sỗ
@@ -1776,7 +1770,7 @@ V+60092	diếc, dức
 ⿰及合	gặp	# [V04-4331]
 㖗	gầm, ngầm, sùm
 𪡆	gầm
-V+60093	gầu
+⿰口求	gầu	# [V+60093]
 𠳹	giang, ràng, sàng, sằng, xằng
 V+60094	hai, hay
 哼	hanh
@@ -1786,8 +1780,8 @@ V+60094	hai, hay
 𠳨	hỏi, mòi, mõm, muối
 㖑	hới, nhái, nhại
 𠳲	hu
-⿰口坚	# ⿱？土	kén	# [V04-432A]
-V+60095	khen
+⿰口坚	kén	# [V04-432A]
+𠱝	khen	# [V+60095]
 𠲵	khiếp, mép
 𠲮	khỉnh, kính
 ⿰口快	khoái	# [V04-432F]
@@ -1800,7 +1794,7 @@ V+60096	lải, lười, ray, rầy
 𪡍	lấn
 哩	lí, líu, lý, ráy, rẽ, ré, rí, rưới
 唎	lị, lời, lợi, rỉa, trơi
-V+60097	loã
+⿰口来	loã	# [V+60097]
 𪡉	loã, lở
 哢	lỏng, loọng, lộng, roọng, trộng, trửng
 𠴊	lỡ, lựa, rở
@@ -1842,12 +1836,12 @@ V+60099	mã
 𠴝	uông, uống
 𠳑	ực
 𠳿	va, vã, vái, vỉ
-V+6009B	và
+⿰口𠀧	và	# [V+6009B]
 ⿰口沕	vẫn	# [V04-4332]
 員,员	vèn, viên, von
 𠴖	vòi, vọi
 𠴤	vũm
-V+6009D	vũm
+⿰口抋	vũm	# [V+6009D]
 𠳗	xác
 唓	xè
 哧	xích
@@ -1859,15 +1853,15 @@ V+6009D	vũm
 𠶉	bặng
 𠶎	bẻ, bê
 啚	bẽ, bỉ, bở
-V+6009E	bệp
+⿰口𤇮	bệp	# [V+6009E]
 啤	bi
 𠶙	bốp, bộp
 啂	bú, nậu, nhỏ, nhổ, nhủ, nhụi, ú
-V+6009F	bựa
-V+60894	cãi
+⿰口备	bựa	# [V+6009F]
+⿰口枝	cãi	# [V+60894]
 唫	căm, câm, cẩm, gặm, gẫm, ngẩm, ngẫm, ngậm
 𠶌	căn, cặn, gặng
-啄	chác, trác, trốc
+啄	chác, trác, trốc	# [V+60090]
 啅	chác, chạc, trác, xược
 𠶕	chẩu, nhàu, nhậu
 𠶜	chế, chơi
@@ -1883,7 +1877,7 @@ V+6080A	củ
 唯	dạ, doi, dõi, dói, dọi, dội, dũi, dúi, duôi, duỗi, duối, duy, giói, giọi, rỉ
 啖	dạm, đạm, giảm
 㖫	dằng, giăng, giằng, lăng, lẳng, lung, lừng, rằng
-V+600A0	dẫm, rầm
+⿰口㸒	dẫm, rầm	# [V+600A0]
 𠶢	dẩu, dẫu, dù
 𠴭	dể, tích
 V+600AA	diệp, nhịp
@@ -1911,8 +1905,8 @@ V+600A1	dở, dỡ, nhử
 啒	hốt, quặc, quắt, quặt
 𠶗	hực, sực
 啓,启	khải, khơi, khới, khui
-V+600A2	khiếu
-V+6006F	khu, khù
+啸	khiếu	# [V+600A2]
+⿰呆区	khu, khù
 𠶥	khúng
 𠶛	kiêng, kinh
 𪡔	la, ra
@@ -1922,7 +1916,7 @@ V+6006F	khu, khù
 啦	láp, lạp
 啷	lắng, rảng
 唳	lệ
-V+600A3	lừng, ngợi
+⿰口⿱𦍌又	lừng, ngợi	# [V+600A3]
 𠶣	mai, may, mòi, môi, mồi, mơi
 𠶦	méo, mẹo, mếu
 唼	mép, táp, thép
@@ -1932,17 +1926,17 @@ V+600A3	lừng, ngợi
 𠵘	mồm
 𠶆	mời
 㖠	nài, nại, này, nhại
-V+6016A	nay
+⿺尼今	nay	# [V+6016A]
 𠵋	nẹt
 𠵚	ngán
 𠵨	ngáy
-V+600A4	ngẩm, ngẫm
+⿰口帛	ngẩm, ngẫm	# [V+600A4]
 唲	nghê, nhè, nhé, nhi, nhí
 𠶐	nghển, nghểnh, nghễnh
 𠶃	ngoạm
 啀	nhai, nhơi
 啱	nhàm, nhem
-V+60942	nhạnh
+𠴒	nhạnh	# [V+60942]
 𠶞	nhính
 𪡑	nhớ
 ⿰口弩	nỏ	# [V04-433F]
@@ -1957,8 +1951,8 @@ V+60942	nhạnh
 啩	quải, quấy
 𠵯	quát
 𠵩	quở
-V+600A5	ra
-V+600A6	rền
+⿰口⿱罒𪜀	ra	# [V+600A5]
+⿰口𡊰	rền	# [V+600A6]
 𠶋	ri, rỉa
 唶	rích, tá, tuếch
 𠶡	rủi, trối
@@ -1973,7 +1967,7 @@ V+600A6	rền
 唱	sướng, xang, xáng, xẳng, xẵng, xắng, xướng
 𠶤	sượng
 V+600A8	sượng
-V+60743	tày
+⿰口斉	tày	# [V+60743]
 㖭	thăm
 𠶀	thăm, thầm
 V+6091F	thòm
@@ -2009,7 +2003,7 @@ V+6091F	thòm
 𠸽	chìa
 𠸩	chiêng, rếch, rên
 喠	chủng, chuộng, gióng, giọng, trọng, tung, tùng
-V+6095E	chuốc
+𠺷	chuốc	# [V+6095E]
 𠸘	cục, tục
 㖸	cược, ngước
 𠸕	dặn
@@ -2018,7 +2012,7 @@ V+6095E	chuốc
 㖷	dề
 啺	dể
 啼	dế, đề, rỉ
-V+600AB	dính
+⿰口盈	dính	# [V+600AB]
 㗈	dõng, giõng, nũng
 喲	dục
 喥	đạc, đô, độ, giạc
@@ -2028,12 +2022,12 @@ V+608F4	đại
 V+6080E	đảy
 𠸤	đậy, giãi
 喋	điệp, nhịp
-V+60852	đòi
+𠸌	đòi	# [V+60852]
 𠸞	đúm
 喓	eo, éo, yêu
 𠷬	giãng
 ⿰口恨	giận	# [V04-434F]
-V+600B0	giấu
+⿰口鬥	giấu	# [V+600B0]
 𠸂	giọt, nuốt, sụt
 喕	giợn
 ⿰口恰	góp	# [V04-434E]
@@ -2075,7 +2069,7 @@ V+607E1	khua
 𠸼	mời
 喃	nam, nắm, nêm, nôm, nồm
 喏	nặc, nhạ
-V+600AD	nẹt
+⿰口⿱臼工	nẹt	# [V+600AD]
 㗁	ngạc, ngắc
 喭	ngán, ngạn, nghẹn, nghiến, nghiện, nghỉn
 喦	ngập, nham, nhiếp
@@ -2084,7 +2078,7 @@ V+600AE	nhòi
 㖻	nhù, nhựu
 𠸔	nịu
 𠷮	nọc
-V+6082F	nở, thỏm
+⿰口⿱夭氺	nở, thỏm	# [V+6082F]
 喎,㖞	oa, oai
 喴	oái, oe
 喔	óc, ọt, ốc, ộc, ủ
@@ -2113,8 +2107,8 @@ V+60744	thây
 𠷇	thè, thi
 善	thẹn, thiến, thiện
 啻	thí, ví
-V+60745	tin
-V+607F0	tinh
+⿰口信	tin	# [V+60745]
+⿰口星	tinh	# [V+607F0]
 ⿰吾四	tớ	# [V04-4349]
 喳	tra
 V+600AF	trối, xổi
@@ -2213,7 +2207,7 @@ V+600BA	ngốn
 𠺁	ních
 𠺶	nói, nớp
 𠻄	oang
-V+600BB	oang, oàng
+⿰口𤭹	oang, oàng	# [V+600BB]
 嗢	on, ồn, ốt
 嗡	óng, ông
 㗒	ơi
@@ -2526,7 +2520,7 @@ V+60741	khiến
 噭	khiếu
 𡀵	khoác
 𡀩	lác
-𫅜	lành	# [V04-5149]
+𫅜	lành	# [V04-5149,V+60817]
 ⿰舌离	lè	# [V04-4426]
 𠿳	lèm, lém, lìm, rờm, rườm
 ⿰口祿	lóc	# [V04-4428]
@@ -2598,13 +2592,12 @@ V+608C9	gỡ
 ⿰呌高	kêu	# [V04-442E]
 𡂀	khào
 𡁙	kháy
-V+60817	lành
 𪢘	lạt, sợt
 𡂎	lóc, lọc
 𡀿	lũ, rủ, rú
 𡂅	mõm
 𡂇	mớm
-V+600EF	mớm
+⿰口滿	mớm	# [V+600EF]
 ⿰口慝	nấc, nức, nực	# [V04-4433]
 𡁺	ngốn
 㘈	ngờ, ngực
@@ -2637,13 +2630,13 @@ V+600F4	xao
 𡂌	xỉn
 𡂁	xổng
 𡂑	bàn
-V+600FD	bàn
+⿰口磐	bàn	# [V+600FD]
 𡃒	bốc
 𡃓	bớ, bựa
 𡂒	chắt, chất, chít, chớt, chợt, rất, rít
 𡂙	chầy, trề, trì
 𡃍	chém, gớm
-V+6073F	chọn
+⿰口撰	chọn	# [V+6073F]
 V+60935	cùi
 V+60962	dạm
 𡃐	dặn
@@ -2684,8 +2677,7 @@ V+600FC	nhạo
 𡃎	phàn
 𪢜	phô
 𪢠	ran
-𡂲	rày
-V+60795	rày
+𡂲	rày	# [V+60795]
 𡂰	răn, rân
 𡂯	rẳng
 嚙	rỉ
@@ -2730,7 +2722,7 @@ V+60102	nhè
 ⿰口操	tháo	# [V04-443D]
 𡃼	thèo
 𡃿	thớt
-V+60104	thớt
+⿰口橽	thớt	# [V+60104]
 V+60103	toản
 𡄐	úng
 嚶	anh, inh
@@ -3037,8 +3029,7 @@ V+608CF	mảnh
 ⿰坐⿱匕匕	nằng	# [V04-445C]
 埝	nấm, nậm, niệm, núm
 𪣮	nề
-𡍝	nùi
-V+6077C	nùi
+𡍝	nùi	# [V+6077C]
 埠	phụ
 𪣰	rả
 𪣱	rấp
@@ -3046,7 +3037,7 @@ V+6077C	nùi
 𡍞	thềm
 堍	thỏ
 埴	thực
-V+60116	thực
+⿰土⿱匕⿺目𠃊	thực	# [V+60116]
 V+60117	vọng
 𡍙	vồng, vung
 𡍋	vun
@@ -3426,7 +3417,7 @@ V+60138	giời, lời, trời
 𡚃	xộn
 ⿰夫開	khươi	# [V04-454B]
 𡚎	lạ
-V+60139	lạ
+⿰罗奇	lạ	# [V+60139]
 奮,奋	phấn
 V+6013A	nhọn
 𡚚	lớn
@@ -3443,8 +3434,8 @@ V+6013C	lạ
 ⿰女厶	noọng	# [V04-454E]
 奸	chan, dan, gian
 妁	chước
-V+607C3	cừn
-V+607D9	cừn
+⿰女巾	cừn	# [V+607C3]
+⿰巾女	cừn	# [V+607D9]
 如	dừ, nhơ, nhờ, như, nhừ, rừ
 好	hảo, hão, háo, háu, hẩu, hấu, hếu, hiếu
 妄	hoạng, vạng, vòng, vọng, vủng
@@ -3667,6 +3658,7 @@ V+60147	doanh
 嬙	tường
 𡢼	vợ
 嬰,婴	anh
+⿱亚女	anh	# [V+60829]
 ⿰女禀	bầm	# [V04-4570]
 𡣨,𡡇	cái, cưới
 㜮	lạm, lợm
@@ -3680,8 +3672,7 @@ V+60147	doanh
 𡣻	sen
 嬸,婶	thẩm, thím, xẩm
 𡤊	chửa
-嬾	lãn
-V+60148	lãn
+嬾	lãn	# [V+60148]
 嬿	yến
 𡤓,𡤔	mới
 𪦲	mới
@@ -3923,10 +3914,10 @@ V+6015C	nhỏ
 𡮌	bé
 𡮇	chút, rốt
 𡮍	chút
-V+6015D	chút
-V+6015E	chút
-V+6015F	chút
-⿰小㤕	chút	# [V04-464B]
+⿰小卒	chút	# [V+6015D]
+⿰小拙	chút	# [V+6015E]
+⿰抽小	chút	# [V+6015F]
+⿱小㤕	chút	# [V04-464B]
 𡮊	dẹp, giẹp
 ⿱的小	đếch	# [V04-4647]
 ⿰英小	eng	# [V04-4646]
@@ -3941,7 +3932,6 @@ V+60161	nao, nau, nu
 ⿰当皮	vừa	# [V04-4648]
 V+60162	xíu
 𡮓	choai
-⿰拙少	chút	# [V04-464C]
 ⿱小昆	cỏn	# [V04-464D]
 𡮗	hoằn, huần
 尞	lèo, lẽo, rêu, treo
@@ -3979,8 +3969,8 @@ V+60166	trẻ
 ⿰尚⿺夂由	dù	# [V04-4657]
 𪨆	ỏi
 𡮷,𡮺	hèn
-V+60167	mạy
-V+60168	mạy
+⿰賣小	mạy	# [V+60167]
+⿰小賣	mạy	# [V+60168]
 𡮹	mỏng
 𡮸	nhọn
 𡮾	nhẻo
@@ -4075,7 +4065,11 @@ V+6016F	ấm
 ⿰屡批	phe	# [V04-4671]
 ⿰屡咼	uà	# [V04-4672]
 屬,属	chúc, chuộc, thuộc
-𡳵,𡳶	cũ
+𡳵	cũ
+𡳶	cũ, sau	# [V04-534D]
+⿰𫇰𪧘	cũ	# [V04-534E]
+⿰𪧘𫇰	cũ	# [V04-534F]
+⿰屢𫇰	cũ	# [V04-5350]
 ⿰屍堯	nghẻo	# [V04-4673]
 𡳺	vía
 𡳹	vỡi
@@ -4195,7 +4189,7 @@ V+60B75	sùng
 嵿	đỉnh
 嶇,岖	khu
 𡼇	mỏm
-V+60173	mỏm
+⿰山𡕩	mỏm	# [V+60173]
 V+60174	tum
 V+60175	xệp
 𪩔	chắn
@@ -4209,10 +4203,10 @@ V+60176	diểu
 𡼹	rừng
 嶒	tằng
 𡼸	vót
-V+60177	vót
+⿰山筆	vót	# [V+60177]
 𡼾	gôi
 嶮	kẽm
-V+60178	lởm
+⿰山稟	lởm	# [V+60178]
 嶩	nao, nổng, nùng
 ⿰嵩亇	tung	# [V04-467A]
 嶼,屿	dữ
@@ -4229,8 +4223,8 @@ V+6017A	lởm
 𡾫	đồi
 𡾭	lởm
 𡾤	nghét
-V+6017B	lởm
-V+6017C	lởm
+⿰山覧	lởm	# [V+6017B]
+⿱山覧	lởm	# [V+6017C]
 𡾵	ngôi
 𡿅	ngông
 巍	nguy
@@ -4291,10 +4285,10 @@ V+60185	trách
 V+60186	seo, treo
 V+60187	muống
 𢀮	sấm
-V+60188	sấm
+⿱巨稟	sấm	# [V+60188]
 ⿰僚巨	treo	# [V04-4732]
 𢀲	lớn
-V+60189	lớn
+⿱巨頼	lớn	# [V+60189]
 𢀱	to
 𪩪	sớm
 ⿱巨懶	lớn, trái	# [V04-4735]
@@ -4465,10 +4459,10 @@ V+6019F	tuổi
 幻	ảo, hoẻn, huyễn
 V+607ED	au
 幼	âu, ấu
-V+601A0	dối
-V+601A1	dối
-幽	u, ù
 𢇉	dối
+⿱幻对	dối	# [V+601A1]
+⿰幻对	dối	# [V+601A0]
+幽	u, ù
 幾	cơ, kỉ
 V+601A2	ảo, ỉu
 ⿰幼追	choai	# [V04-475C]
@@ -4476,11 +4470,10 @@ V+601A3	dối
 # Bộ nghiễm   广
 广	nghiễm, quảng
 庁	sảnh, thinh
-庄,庒	chăng, chằng, chẳng, dẳng, dặng, giằng, trang
+庄,庒	chăng, chằng, chẳng, dẳng, dặng, giằng, trang	# [V+607DD]
+⿸广𡈽	chẳng	# [V+607DC]
 𢇡	khuya
 𢇢	sến
-V+607DC	chẳng
-V+607DD	chẳng
 庉	đụn
 床	giàn, giàng, giường, nhàng, ràng, rương, sàng, sường
 𢇱	hè
@@ -4653,10 +4646,9 @@ V+601AE	chổi
 彘	trệ
 彙,汇	hối, vị, vừng, vựng
 V+601AF	quy
-彛	di
-V+601B0	di
-V+6075A	tìm
+彛,彜	di	# [V+601B0]
 彝	di
+⿰去尋	tìm	# [V+6075A]
 # Bộ sam   彡
 彡	sam
 𢒂	chín
@@ -4773,9 +4765,9 @@ V+601BA	sã
 忿	buồn, phẫn
 𢗡	cáy
 忱	chằm, thầm, thòm, thùm
-V+601BB	diếu
-V+601BC	diếu
-V+60981	há
+⿰忄弔	diếu	# [V+601BB]
+⿰忄吊	diếu	# [V+601BC]
+𪫧	há	# [V+60981]
 忺	hân
 忻	hân, hớn
 忽	hót, hốt
@@ -4809,7 +4801,7 @@ V+608DA	thẫn
 忡	xung
 㤇	yêu
 怮	âu, u
-V+601C0	âu, u
+⿰忄㓜	âu, u	# [V+601C0]
 怑	bạn, bẳn, bỡn
 怦	bằn, bầng, bừng, phanh
 㤓	bẳn, bộn, bỡn, bủn
@@ -4823,8 +4815,8 @@ V+601C0	âu, u
 怵	chuật, suất, truật, truột
 V+601BE	chuật
 㤕	chút, sót, trót, truất, xót
-V+60842	chút
-V+6084D	chút
+⿰出心	chút	# [V+60842]
+⿰出忄	chút	# [V+6084D]
 怛	dắt, dứt, đát, đắn, đắt, đất, đét, đứt
 怞	dầu
 怡	di
@@ -4877,7 +4869,7 @@ V+601C4	gắn, nhắn
 恗	hô, khoe, khoé
 恚	huệ, khuê
 恟	hung
-V+601C3	hung
+⿰忄兇	hung	# [V+601C3]
 恪	khác, nhác
 恰	kháp
 恢	khôi
@@ -4905,7 +4897,7 @@ V+601C5	thành
 恣	thư, tứ
 恕	thứ
 𢙭	tim
-V+607D6	toọng
+⿱同心	toọng	# [V+607D6]
 V+607F6	toọng
 恂	tuân
 恤	tuất
@@ -4926,7 +4918,7 @@ V+607F6	toọng
 悠	du, đu
 恿	dũng
 悉	dứt, tạt, tắc, tắt, tất
-V+601C7	đắm
+⿰忄沈	đắm	# [V+601C7]
 悌	đẩy, đẫy, đẽ, đễ
 𢙵	đẽ, khác
 𪫼	đổi
@@ -5314,7 +5306,7 @@ V+601F3	mót
 𢤢	nhịt
 V+601F4	sắm
 𢤣	tẽn
-V+601F5	tẽn
+⿰忄賤	tẽn
 ⿰急旁	vàng	# [V04-4861]
 𪬽	vội
 𪭀	bẽn
@@ -5356,7 +5348,7 @@ V+601F6	dốt
 V+601F7	lắng
 𢦂	lờn
 𢦄	thò
-V+601F8	thò
+⿰忄讐	thò	# [V+601F8]
 戇,戆	tráng
 # Bộ qua   戈
 戈	qua, quá, quơ, quờ
@@ -5382,8 +5374,8 @@ V+601FA	húc
 戡	kham
 𢧚	nên
 ⿰成年	nên	# [V04-486C]
-V+601FB	quạ
-V+601FC	quạ
+⿰戈烏	quạ	# [V+601FB]
+⿰烏戈	quạ	# [V+601FC]
 戢	tập
 截	sịt, tét, tiệt, tĩu
 戧,戗	thương
@@ -5404,7 +5396,7 @@ V+601FE	mửng
 戽	hố
 戾	lệ, luỵ
 𢨵	ngõ
-V+601FF	ngõ
+⿸户午	ngõ	# [V+601FF]
 所	sở, sỡ, sửa, thửa
 扁	ben, bẽn, bên, biển, thiên
 𪭘	họ
@@ -5420,8 +5412,8 @@ V+60769	bình
 𢩛	cổng
 𪭚	cửa
 𢩜	họ
-V+60200	buồng
-V+6082B	buồng
+⿰房旁	buồng	# [V+60200]
+⿰房逢	buồng	# [V+6082B]
 ⿰逢房	buồng	# [V04-4871]
 𢩣	buồng
 𢩤	mướn
@@ -5755,7 +5747,7 @@ V+60219	moi
 挪	na, ná
 捏	nát, nạt, nhét, niết
 𢭫	ngón
-V+6021B	ngón
+⿰手言	ngón	# [V+6021B]
 𪮀	ngón
 𢭰	nhổ, trỏ
 𢭵	nhổ
@@ -5766,11 +5758,11 @@ V+6021B	ngón
 𢭭	quáo
 捐	quen, quên, quyên
 𢭯	quét
-⿰手呂	rửa	# [V04-4925]
+⿰龵呂	rửa	# [V04-4925]
 挱,挲	sa
 捎	sao
 𢮀	sờ
-V+60B72	tấm
+⿰扌沁	tấm	# [V+60B72]
 捘	thoa, tốn, xoa
 捝	thoát, thoắt
 𢬳	thóc, thọc, thốc, tọc
@@ -5810,6 +5802,7 @@ V+6082D	chăng, chẳng
 推	chui, suy, thoi, thòi, thôi, tòi
 捶	chúi, chuỳ, dồi, thuỳ, truỳ
 𢮬	chút
+⿰拙少	chút	# [V04-464C]
 掌	chưởng
 𢮩	co
 𢯐	co
@@ -5932,7 +5925,7 @@ V+6086D	chọn
 𢰥	đày
 𢱜	đẩy
 𢱞	đốt
-V+60225	đốt
+⿰手突	đốt	# [V+60225]
 𢱝	đúc, nhốt
 V+608C6	đứt
 㨔	giam, giằm, giầm, hãm
@@ -6066,7 +6059,7 @@ V+60232	niu
 V+60924	rung
 搓	sai, tha, thoa, xay, xây, xoay
 𢲮	sải
-V+60233	sải
+揹	sải	# [V+60233]
 搶,抢	sang, thương, thưởng
 𢲲	sang
 V+6090E	sánh
@@ -6185,8 +6178,8 @@ V+608B0	trưa
 𢴌	vặn
 V+60B80	vầy
 𢴘	xay
-V+6023F	xắn
-V+60240	xắn
+⿰扌⿱𣦼木	xắn	# [V+6023F]
+⿰扌唱	xắn	# [V+60240]
 𢴜	xâu
 ⿰抱奄	ẵm, ôm	# [V04-495E]
 播	bá, bạ, bợ, phăng, vả, vá, vớ
@@ -6309,7 +6302,7 @@ V+60252	dậu
 𢷀	dó, dũ, giũ, nhổ, rủ, rũ
 𢶺	dom
 𢶿	dọn
-V+6092B	dọn
+⿰扌頓	dọn	# [V+6092B]
 𢶀	duệ
 V+6024D	dựng
 V+6024E	đai
@@ -6369,7 +6362,6 @@ V+60256	nhận
 擟	nhể
 擰	ninh
 𢷴	quẫy
-⿰扌歴	rạch	# [V04-4966]
 V+60257	rớ
 擦	sát, xát, xớt
 擯,摈	tấn
@@ -6431,7 +6423,8 @@ V+60264	bòng
 𢸾	hững
 ⿱切⿰手宓	khít	# [V04-4970]
 攊	lách, rạch, rịch, vạch
-V+60262	lách, rạch, rịch
+⿰扌歴	rạch	# [V04-4966]
+⿰扌曆	lách, rạch, rịch	# [V+60262]
 攏,拢	long, lũng, ruồng
 𢹈	lung, rung
 攎,𢫘	lư, lùa, lừa, lựa, rờ, so
@@ -6450,7 +6443,7 @@ V+60263	thó
 攙,搀	sam, sàm, sọm, xam
 𢹩	sương
 𢹪	tóm
-V+6072D	tóm
+⿰扌糁	tóm	# [V+6072D]
 𢹨	túm
 𢹤	xâu
 𢹧	xỏ
@@ -6471,7 +6464,7 @@ V+60266	loại
 𢺔	bấu
 𢺒	búng
 𢺓	dìm
-V+60267	dìm
+⿰扌⿱雨活	dìm	# [V+60267]
 攞	khoả, rà
 攡	lia
 攣,挛	loang, luyên
@@ -6499,7 +6492,7 @@ V+60269	bẹp, dẹp
 支	che, chê, chề, chi, chia, chơi, giê, xài, xê
 𢺺	chia	# [V04-4230]
 𢺹	chia
-V+60B7C	chia
+⿺支㐱	chia	# [V+60B7C]
 V+6089F	trống
 攲	khi
 攴	phộc
@@ -6554,7 +6547,7 @@ V+6026D	hiệu
 ⿱放秀	toả	# [V04-4975]
 𪯕	toác
 V+6026E	xao
-⿰放⿱艹⿻𠘨𠄠	buông	# [V04-4978]
+⿰放⿱艹	buông	# [V04-4978]
 𪯗	tan
 𢿼	tuồm
 V+608CA	gởi
@@ -6640,7 +6633,7 @@ V+60737	ở
 旌	tinh
 旋	toàn, triền, triệng, trình, tuyền
 V+60273	vuông
-⿺⿱艹⿻𠘨𠄠方	vuông	# [V04-4A2A]
+⿺⿱艹方	vuông	# [V04-4A2A]
 𪯼	tày
 𣄇	tròn, vuông
 旗	cờ, kì
@@ -6662,7 +6655,7 @@ V+60274	vung
 𣄬	lệch
 # Bộ vô
 既	dĩ, kí
-V+60275	dĩ, kí
+⿰旡	dĩ, kí	# [V+60275]
 旣	kí
 # Bộ nhật   日
 日	nhạt, nhặt, nhật, nhửt, nhựt
@@ -6774,7 +6767,7 @@ V+60749	dễ
 𣇙	nhía
 𣇝	rảnh
 𣇟	sao
-V+6027E	sao
+⿰日牢	sao	# [V+6027E]
 晨	thần
 晢	triết
 𣈖	bóng
@@ -6792,7 +6785,7 @@ V+607EC	đỉnh
 𣇾	lưng
 晾	lượng
 𣈕	mai
-V+60281	mai
+⿰日枚	mai	# [V+60281]
 V+60284	muộn
 𣈗,𣈜	ngày
 𣇫	noã, thuở
@@ -6918,7 +6911,7 @@ V+60290	muộn
 𣋜	cợm
 𣋑	diếp, dịp
 𣋚	hôm
-V+60291	hôm
+⿰日歆	hôm	# [V+60291]
 𣋛	lát
 曚	mông, mồng, mùng
 ⿰日夢	mồng	# [V04-4A5D]
@@ -7620,8 +7613,7 @@ V+602CD	gãy
 樓,楼	lâu, lầu
 模	mạc, mo, mọ, mô, mu, mù, mua
 槾	mạn, mận, mướn
-𣙷	máng
-⿰木莽	máng	# [V04-4B49]
+𣙷	máng	# [V04-4B49]
 ⿰末莫	mắc	# [V04-4B47]
 𣙺	mâm, tông
 𣙪	mơ
@@ -7677,7 +7669,7 @@ V+602CF	chõng, gióng
 橇	khiêu
 V+602D0	lãm, trám
 橯,𣓿	lạo, lau, rào
-⿰木巤	lắp	# [V04-4B4D]
+⿰木⿳𠂊囚𠂡	lắp	# [V04-4B4D]
 橉	lận, săng
 橑	lèo
 㯝	lọ, lộ, rọ
@@ -8110,7 +8102,7 @@ V+602F3	rặc
 汓	tở, tù
 𪵬	vàm
 汊	xá, xoà
-V+6200F	ao, ào
+⿰氵幻	ao, ào	# [V+6200F]
 沛	bái, bó, phai, phải, phái, phay, phảy, phây, phẩy, phới
 汴	biển
 V+602F6	bọc
@@ -9889,7 +9881,7 @@ V+603A1	sống
 𪽅	đẻ
 𤯱	gã
 ⿰⿱罒廾生	ra	# [V04-4E2E]
-𤯭	sánh
+𤯭	sánh	# [V04-403D]
 𪽄	sượng
 𪽃	vioòng
 ⿰産亇	sẵn	# [V04-4E32]
@@ -10009,7 +10001,6 @@ V+608A5	trải
 𤴵	dức, nhức
 㽳	hu, võ
 疞	khuya
-V+603A8	mòn
 疙	ngất, ngật
 𤴰	ngất
 疝	sán, sờn
@@ -10124,6 +10115,7 @@ V+607C1	nẩu
 𤷍	gầy
 𤷯	loét, nhoét
 𤷱	mòn
+⿸疒门	mòn	# [V+603A8]
 V+6092E	nề
 𤷙	ngây
 𤷳	nhom
@@ -10311,13 +10303,12 @@ V+603C5	xoá
 皐	cao, cau
 ⿰当白	đáng	# [V04-4E68]
 皎	hiệu, kiểu
-⿱白壮	trắng	# [V04-4E69]
 V+6096C	xoá
 皕	bức
 皓	hạo
 𤽴	hếu
 𤽵	phau
-𤽸	trắng
+𤽸	trắng	# [V04-4E69]
 𤽶	vía
 𪾀	dích
 V+60B67	ngươi
@@ -10357,7 +10348,7 @@ V+607BB	pỉ
 皴	suân
 𤿰	trồng, trống
 𤿭	vỏ
-V+603C8	bầy
+⿰悲皮	bầy	# [V+603C8]
 皷	cổ
 𪾉	da
 𥀌	giày
@@ -10379,7 +10370,7 @@ V+603C9	mãnh
 盎	ang, áng, ăng, đám
 盍	hạp, khạp
 益	ích, ịch
-⿱卯皿	máu	# [V04-537B]
+𥁚	máu	# [V04-537B]
 盌	oản, oán
 V+603CA	chúng
 盗	đạo
@@ -12193,6 +12184,7 @@ V+604A3	y
 𦄺	rẵng, rắng
 𦄶	rìa
 縿	sam, tom, tóm, túm, xam
+縿	tom         # [V+604A8]
 繅,缫	sào
 繂	suất
 縮,缩	súc
@@ -12200,7 +12192,6 @@ V+604A3	y
 𦄷	thòng
 績,绩	tích
 ⿰糹责	tích	# [V+604A7]
-⿰糹叄	tom         # [V+604A8]
 總,总	tóm, tỏng, tổng
 縶,絷	trập
 縳	tuệ
@@ -12404,25 +12395,25 @@ V+6085D	dường
 羯	khiết
 𦎬	tanh
 V+604C7	cừu, trừu
-𫅚	óng
-⿰美秉	bảnh	# [V04-5147]
+⿰美𪪳	óng
+𫅚	bảnh	# [V04-5147]
 ⿰美枼	đẹp	# [V04-514A]
 𦏄	đỏm
 𦏁	hi
-𫅝	lành
-𫅜	tốt
+⿰善令	lành	# [V04-514B]
+⿰美卒	tốt	# [V04-5148]
 𦏓	bọn
-𫅞	đỏm
-⿰良善	lành	# [V04-514D]
+𫅝	đỏm	# [V04-514C]
+𫅞	lành	# [V04-514D]
 𦏒	miêu, miều
 羶	chen, chiên, thiên, thiện, xiên
 羸	luy
-𫅟	quen
+⿰善肙	quen	# [V04-514E]
 V+604C8	rườm
-⿰美葉	đẹp	# [V04-5145]
-𫅠	kháu
-⿰君非	bầy	# [V04-5151]
+𫅠	đẹp	# [V04-5145]
 ⿰葉美	đẹp	# [V04-5150]
+𫅟	kháu	# [V04-514F]
+⿰郡非	bầy	# [V04-5151]
 ⿰善舀	thạo	# [V04-5152]
 𫅡	thẹn
 ⿰羞賤	tẽn	# [V04-5154]
@@ -12555,7 +12546,7 @@ V+607C7	xu
 V+604DA	nghễnh
 聘	sánh, sính
 聖,圣	thánh
-V+604DB	ả, ca
+⿰耳亞	ả, ca	# [V+604DB]
 𦖡	điếc
 𦖑	nghe
 ⿰宜耳	nghe	# [V04-516B]
@@ -13236,7 +13227,7 @@ V+60518	đứng
 芋	vu
 芭	ba
 芾	bái, nào
-⿱艹⿻𠘨𠄠	boong, bông, bung, buông, von	# [V04-526B]
+⿱艹	boong, bông, bung, buông, von	# [V04-526B]
 芣	búp, bút, phù
 芩	cầm
 芹	cần
@@ -13480,7 +13471,7 @@ V+60967	ngón
 䓪	rễ
 𦲻	rơm
 𦲺	sả
-⿱艹参	sam	# [V04-5279]
+𦲞	sam	# [V04-5279]
 薩,萨	tát
 菜	thái
 菼	thảm
@@ -13530,7 +13521,7 @@ V+60527	găng
 V+60528	nẫu
 萼	ngạc
 V+608D2	ngẩn
-⿱艹卧	ngoả	# [V04-527A]
+𦱽	ngoả	# [V04-527A]
 葇	nhu, nhú
 𦵙	nhựa
 𦵚	nụ
@@ -13859,11 +13850,7 @@ V+60542	tuyết
 䕭	tầm
 蘀,萚	thác
 藷	thự
-⿱艹頼	trái	# [V04-534A]
-⿰𫇰屡	cũ, sau	# [V04-534D]
-⿰𫇰𪧘	cũ	# [V04-534E]
-⿰𪧘𫇰	cũ	# [V04-534F]
-⿰屢𫇰	cũ	# [V04-5350]
+藾	trái	# [V04-534A]
 𧃵	đắng
 𧄊	han
 𧃷	khoai
@@ -14449,6 +14436,7 @@ V+607D7	tương
 裾	cư
 𧛋	đềm, đệm, nệm
 𧛆	đụp
+⿰衤⿱水臼	đụp	# [V04-542E]
 裸	khoả, loã
 裹	khoả
 𧛈	lụn
@@ -14457,10 +14445,10 @@ V+607D7	tương
 𧛊	rách
 𧛎	sờm
 裼	tễ
-⿰衤参	thảm	# [V04-5429]
 裳	thường
 䘹	tối, tốt
 𫌄	tươm
+𫌄	thảm	# [V04-5429]
 𧛌	vạt
 裺	yểm, yếm
 ⿰衤？	áo	# [V04-542D]
@@ -14483,7 +14471,6 @@ V+60575	mấn
 V+60577	chấp, nếp, níp
 V+60578	chẽn
 褡	đáp
-⿰衤沓	đụp	# [V04-542E]
 V+60579	gọn
 褰	khiên
 褲,裤	khố
@@ -14499,8 +14486,7 @@ V+6057A	tụa
 襃	bao
 𧜺	bâu
 褶	chấp, chiệp, điệp, tập
-襁	cưỡng
-V+6057B	cưỡng
+襁	cưỡng	# [V+6057B]
 𧜵,䙊	dải, đai, giải
 𧜻	đũng
 ⿰衤動	đũng	# [V04-542F]
@@ -14603,6 +14589,7 @@ V+60582	nhớn
 覺	dác, giác, nhác
 覽,览	lãm, lỏm, lóm, lởm, lỡm, rỏm
 𧢟	nghiến
+⿰齿見	nghiến	# [V+60583]
 觀	quan
 # Bộ giác   角
 角	chác, dạc, giác, giốc, góc
@@ -15112,7 +15099,7 @@ V+605B5	tím
 趄	thư
 𧻚	cản, viên
 𧻭	dấy, dậy, gây, tiết
-𧻐	đuổi
+𧻐	đuổi	# [V04-5463]
 趔	liệt
 𧻗,𧻪	nhông
 𧻩	rảo
@@ -15121,7 +15108,6 @@ V+605B5	tím
 𧻷	bổ
 趕,赶	cản
 𧼋,𧼌	chạy
-⿺走対	đuổi	# [V04-5463]
 𧼍	lanh
 䞮	sấn
 趙,赵	triệu
@@ -15859,7 +15845,7 @@ V+605F6	bềnh
 遲,迟	chày, chầy, chề, rì, trì, trìa
 𨗛	chầu
 𨖼	chóng, súng
-⿺辶衆	chúng	# [V04-5565]
+𨖙	chúng	# [V04-5565]
 遺,遗	di
 遹	duật
 𨗊	đò
@@ -15922,7 +15908,7 @@ V+605FB	thối
 V+60B79	ruổi
 ⿰建差	xây	# [V04-5575]
 𨙍	kéo
-⿰辶鵣	rảo	# [V04-5577]
+⿺辶鵣	rảo	# [V04-5577]
 𫑓	rượt
 ⿺辶⿰𠂤堯	theo	# [V04-557A]
 𨙌	tít
@@ -15930,12 +15916,11 @@ V+60B79	ruổi
 ⿺辶⿰告差	xây	# [V04-5578]
 ⿺辶⿰斤察	sít	# [V04-557B]
 𨙖	suốt
-𨙛	chóng
+𨙛	chóng	# [V04-557C]
 邏,逻,𨔍	la, lạ
 邐,逦	lí
 𨙝	lui
 V+605FE	chậm
-⿺辶⿰束眾	chóng	# [V04-557C]
 V+605FF	sót
 𨙥	xoảng
 # Bộ ấp   邑
@@ -15964,7 +15949,7 @@ V+605FF	sót
 部	bõ, bộ, pủ
 郵,邮	bươu, bưu
 郭	quách
-⿰？阝	đặng, đựng	# [V04-557E]
+⿰⿳䒑八日阝	đặng, đựng	# [V04-557E]
 都	đo, đô, đu, đủ, đua
 鄂	ngạc
 V+608B8	dưới
@@ -16319,7 +16304,7 @@ V+60626	thuốn
 鋥	trạch, xiềng
 銹,锈	tú
 鋉	vành
-𫒥	vành, vòng,  võng
+𫒥	vành, vòng, võng
 䤲	xích
 𨧣	xớt
 錒,锕	a
@@ -16453,7 +16438,6 @@ V+6063A	xuổng
 V+6063C	chất
 𨫵	cuốc
 ⿰釒菊	cuốc	# [V04-563D]
-V+60736	cường
 𨬉	dùi
 鏞,镛	dung
 鏑,镝	đích
@@ -16486,7 +16470,7 @@ V+60B6D	thoa
 𨭏,𨭒	choang
 V+60644	chởm
 鐘	chung, chuông
-鏹,镪	cường
+鏹,镪	cường	# [V+60736]
 V+60849	đà
 鐙,镫	đáng, đăng, đặng, đâng
 鏵,铧	hoa
@@ -16622,8 +16606,7 @@ V+6087D	muôn
 𫔯	đấu
 閒,𫔮	gián, nhàn, nhằn
 閑,闲	hèn, nhàn, nhằn, nhờn
-開,开	khai, khay, khoay, khơi, khui
-𫔭	khai
+開,𫔭,开	khai, khay, khoay, khơi, khui
 閍	miên, muôn, phương
 𨳰,𨳱	ngõ
 閏,闰	nhọn, nhộn, nhuần, nhuận, nhún
@@ -17152,15 +17135,15 @@ V+6067C	dự
 # Bộ phong   風
 風,风	phong
 V+6067D	phong
-⿺⿻𠘨𠄠幻	ào	# [V04-567D]
+⿺幻	ào	# [V04-567D]
 𩖫	vuông
-⿺⿻𠘨𠄠北	bấc	# [V04-5721]
+⿺北	bấc	# [V04-5721]
 颯,飒	bùng, táp
 𩗂	mát
 V+6067E	mát
 𫖼	mát
 𩗀	phạch
-⿰立⿻𠘨𠄠	táp	# [V04-5722]
+⿰立	táp	# [V04-5722]
 𩗃	tố
 𫖽	bễ
 颶	cụ
@@ -17169,37 +17152,36 @@ V+6067E	mát
 V+608E1	vầy
 V+63883	gió
 𫖾	gió
-⿱⿻𠘨𠄠俞	gió	# [V04-5727]
+⿱俞	gió	# [V04-5727]
 V+6067F	hẩy
 𫖿	mẻ
-⿺⿻𠘨𠄠南	nồm	# [V04-5725]
+⿺南	nồm	# [V04-5725]
 𩘨	dông
 V+60681	dông
 𩘪	giông
 V+60680	giông
-⿰⿻𠘨𠄠容	giông	# [V04-572B]
+⿰容	giông	# [V04-572B]
 𩘫	hẩy
 𫗀	hẩy
 颿	phàm
 颼	sưu
 𩘩,𩘬	thói
 𫗁	thói
-⿰退⿻𠘨𠄠	thói	# [V04-572D]
+⿰退	thói	# [V04-572D]
 𫗂	thói
 𩘣	tố
 V+60682	tố
-⿺⿻𠘨𠄠素	tố	# [V04-5729]
+⿺素	tố	# [V04-5729]
 飃,飄,飘	phiêu
 V+6041D	phiêu
 V+608A6	gió
 飆,飙	tiêu
-𩙋,𩙌,𩙍	gió
-V+6077B	gió
-V+63885	gió
-𫗃	gió
-⿳⿻𠘨𠄠愈	gió	# [V04-5731]
-𫗄	gió
-⿱⿻𠘨𠄠⿳⿴同一八	hăng	# [V04-572F]
+𩙋,𩙌	gió
+𩙍,𫗃	gió	# [V04-5732]
+⿰愈	gió	# [V04-5730]
+𫗄	gió	# [V04-5731]
+⿱風愈	gió	# [V+6077B]
+⿱⿳⿴同一八	hăng	# [V04-572F]
 𩙕	bão
 # Bộ phi   飛
 飛,飞	bay, phi
@@ -17209,10 +17191,10 @@ V+60683	bay
 𫗌	bân
 𩙹	bổng
 𩙻	bay
-V+60684	bay
-V+60685	bay
+⿰悲飛	bay	# [V+60684]
+⿰悲𠃧	bay	# [V04-5735]
+⿰堯飛	bay	# [V+60685]
 飜	phiên
-⿰悲？	bay	# [V04-5735]
 # Bộ thực   食
 食	thực, tự
 飠,饣	thực
@@ -17257,7 +17239,7 @@ V+60688	tiễn
 V+60689	nhiêu
 餈	tư
 餔	bô
-V+6068A	bô
+𫗦	bô	# [V+6068A]
 餑,饽	bột
 𩛷	bữa
 餘	dư, thừa
@@ -17281,7 +17263,7 @@ V+6068A	bô
 餳,饧	đường
 V+6068B	ế
 餬	hồ
-V+6068C	hồ
+𫗫	hồ	# [V+6068C]
 𫗗	mì
 𩝇	mồi
 𩜽	ngán, ngạn
@@ -17598,8 +17580,8 @@ V+606A9	quẻ
 𩲥	sái, trơi
 𩳊	ranh
 魈	tiêu, tiều
-V+606AA	vía
-V+60B71	vía
+⿺尾鬼	vía	# [V+606AA]
+⿰里鬼	vía	# [V+60B71]
 魎	lạng
 𫙍	mãnh
 魏	nguỵ
@@ -17611,7 +17593,7 @@ V+60B71	vía
 魊	vực
 V+608E3	xấu
 𩴅	vía
-V+606AB	vía
+⿰胃鬼	vía	# [V+606AB]
 V+606AD	ngồi
 魔	ma
 魑	si
@@ -17686,7 +17668,7 @@ V+606BB	thu
 鮪,鲔	vị
 䱒	ấp, ốp
 鯆	bò
-⿰魚⿱艹⿻𠘨𠄠	bống	# [V04-5772]
+⿰魚⿱艹	bống	# [V04-5772]
 鮿	chép
 鯀	cổn
 鮽	dư, dưa, đù
@@ -17789,13 +17771,12 @@ V+606CD	bơn
 𩺧	cháy
 𩺗	chép
 鰩,鳐	dao
-鰧	đằng
-V+606D5	đằng
+鰧,䲢	đằng	# [V+606D5]
 V+606CE	điều
 𩺌	giải
 V+606CF	hau
-V+606D0	húc
-V+606D1	húc
+⿰魚彧	húc	# [V+606D0]
+⿰鱼彧	húc	# [V+606D1]
 鰭,鳍	kì
 鰜,鳒	kiêm
 V+606D2	ngão
@@ -17897,8 +17878,8 @@ V+606E1	điểu
 # Bộ điểu   鳥
 鳥,鸟	đeo, đẽo, đéo, điểu
 鳩,𩾛	câu, cưu
-V+606E2	cưu
-V+606E3	cưu
+鸠	cưu	# [V+606E2]
+⿰鳥九	cưu	# [V+606E3]
 鳮,鸡	kê
 V+606E4	phù
 鳯	phùng, phượng
@@ -17906,8 +17887,8 @@ V+606E4	phù
 鳶,鸢	diên, diều
 V+606E5	giộc
 鳴,鸣	minh
-V+606E6	phù
-V+606E7	phù
+⿱鳥兀	phù	# [V+606E6]
+⿹兀	phù	# [V+606E7]
 鳳,凤	phụng, phượng
 䲧	sẻ
 鴉,鸦	a, ác, nha
@@ -18023,7 +18004,6 @@ V+606F3	li
 𪂦	uyên
 𪂱	vạc
 鶧	anh
-V+60904	anh
 𪃙,𪃲	chả
 𪃴	gà
 ⿰𤔄鳥	gà	# [V04-577E]
@@ -18042,7 +18022,6 @@ V+606F7	ngan
 V+606F8	vụ
 鶠	yến
 鶯,莺	anh, oanh
-V+60701	anh
 鶺,鹡	chích, tích
 ⿰隻鳥	chích	# [V04-5823]
 𪄦	choè
@@ -18060,8 +18039,8 @@ V+606FC	giồng
 V+606FD	khấu
 鶼,鹣	kiêm
 鶹,鹠	lưu
-V+606FE	mạch
-V+606FF	mạch
+⿱莫鳥	mạch	# [V+606FE]
+⿱莫鸟	mạch	# [V+606FF]
 ⿰辱鳥	nộc	# [V04-5821]
 V+606F6	ông
 𪄤	sáo
@@ -18093,7 +18072,7 @@ V+6072F	bồ
 V+60702	trả
 V+60703	trạc
 𪅭	tu
-V+6072E	tu
+⿱修鳥	tu	# [V+6072E]
 𪅫	vạc
 鷖,鹥	y
 𪅬	yểng
@@ -18145,6 +18124,8 @@ V+6070A	vẹt
 V+6070B	giẻ
 鸕,鸬	lô, lư
 鸚,鹦	anh
+⿰婴鳥	anh	# [V+60701]
+⿰⿱亚女鳥	anh	# [V+60904]
 鸘,鹴	sương
 鸜	cò, cù
 鸛,鹳	quán
@@ -18157,18 +18138,18 @@ V+6070C	lôi
 𪉥	muối
 𫜈	muối
 鹹,咸	hàm
-V+6070D	hàm
+⿰卤咸	hàm	# [V+6070D]
 𪉴	muối
 V+6070E	kiềm
 鹺,鹾	ta
 𪉽	mằn, mặn
-V+6070F	mằn, mặn
+⿰卤敏	mằn, mặn	# [V+6070F]
 𪉾	mặn
-V+60710	mặn
+⿰卤曼	mặn	# [V+60710]
 鹽,盐	diêm
 V+60711	kiềm
 𪊅	mắm
-V+602DE	mắm
+⿰卤禁	mắm	# [V+602DE]
 ⿰鹵稟	mắm	# [V04-582A]
 # Bộ lộc   鹿
 鹿	lộc
@@ -18310,8 +18291,7 @@ V+608C5	đồng
 齔,龀	sấn
 V+6071B	xẻ
 齕,龁	hột
-䶕	bá
-V+6071C	bá
+䶕,𫜨	bá	# [V+6071C]
 齗,龂	ngân
 齙,龅	bao
 齠,龆	điều
@@ -18320,16 +18300,15 @@ V+6071C	bá
 齜,龇	thử
 ⿰齒宇	vổ	# [V04-5837]
 齣	xuất
-V+6071E	xuất
+⿰齿句	xuất	# [V+6071E]
 齩	giảo
-𪘂	giảo
-V+60720	giảo
+𫜪	giảo	# [V+60720]
 齦,龈	khẳng, ngân
+𪘂	giảo
 齧	khiết
-V+60721	khiết
+⿱⿰王刀齿	khiết	# [V+60721]
 𪘌	lợi
-V+6071F	lợi
-V+60583	nghiến
+⿰齿吏	lợi	# [V+6071F]
 齬,龉	ngữ
 ？	tốc	# [V04-5838]
 齪,龊	xúc
@@ -18342,10 +18321,10 @@ V+60725	hàm
 齷	hốc	# [V04-583B]
 齲,龋	khũ
 齶	ngạc
-V+60726	ngạc
+⿰齿咢	ngạc
 齷,龌	ốc
 䶧	giảo
-V+60727	giảo
+⿰齿堯	giảo	# [V+60727]
 𫜧	nanh
 ⿰齒粦	răng	# [V04-583D]
 ⿰齒𦺈	sún	# [V04-583E]
@@ -18375,4 +18354,3 @@ V+6072B	quân
 #  Kho chữ Hán-Nôm mã hoá — Thứ tự Unicode	Phiên bản 15/08/2007
 #  Phiên bản 15/08/2007	Kho chữ Hán-Nôm mã hoá — Thứ tự Unicode
 #  28 Bản quyền © 2007 Viện nghiên cứu Hán-Nôm & Hội Bảo tồn Di sản chữ Nôm
-#  Bản quyền © 2007 Viện nghiên cứu Hán-Nôm & Hội Bảo tồn Di sản chữ Nôm
