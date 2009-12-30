@@ -20,7 +20,7 @@ EOC
 
 print "Now creating database..\n"
 while gets
-  if $_ =~ /^(U+.+)\t(k[a-zA-Z]+)\t(.+)$/
+  if $_ =~ /^(U+.+)\t(k[a-zA-Z_]+)\t(.+)$/
     f=open($2,"a")
     data = $1
     if $2 != 'kDefinition'
