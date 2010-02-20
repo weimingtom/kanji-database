@@ -1,5 +1,5 @@
 # 説文解字注 Schema
-#   $Id: swjz.rnc,v 1.1 2009/05/05 01:50:52 kawabata Exp $
+#   $Id: swjz.rnc,v 1.2 2010/02/17 16:01:47 kawabata Exp $
 
 start = element book {volumes, attribute title {text}}
 
@@ -55,7 +55,7 @@ pict_text = (
 shuowen = element shuowen {
   (element wordhead {
     attribute id {text}?, 
-    attribute page {text}?, 
+    attribute img {text}?, 
     pict_text
   },
     text_note2?)+

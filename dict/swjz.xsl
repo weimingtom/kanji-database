@@ -45,7 +45,12 @@
       <xsl:element name="td">
         <xsl:attribute name="class">wordhead</xsl:attribute>
         <xsl:attribute name="id"><xsl:value-of select="@id"/></xsl:attribute>
-        <xsl:apply-templates/>
+        <xsl:element name="img">
+          <xsl:attribute name="src">swjz-img/<xsl:value-of select="@img"/>.png</xsl:attribute>
+          <xsl:attribute name="alt"><xsl:value-of select="."/></xsl:attribute>
+          <xsl:attribute name="width">40%</xsl:attribute>
+        </xsl:element>
+        <font style="font-size:50%;"><xsl:value-of select="."/></font>
       </xsl:element>
       <!--td class="wordhead"><xsl:apply-templates/></td-->
       <td class="body">
@@ -68,14 +73,6 @@
       </td>
       </tr><xsl:text>
     </xsl:text>
-  </xsl:template>
-  <xsl:template match="img">
-    <xsl:element name="img">
-      <xsl:attribute name="src">swjz-img/<xsl:value-of select="@src"/>.png</xsl:attribute>
-      <xsl:attribute name="alt"><xsl:value-of select="."/></xsl:attribute>
-      <xsl:attribute name="width">40%</xsl:attribute>
-    </xsl:element>
-    <font style="font-size:50%;"><xsl:value-of select="."/></font>
   </xsl:template>
   <xsl:template match="explanation">
     <span class="explanation">
