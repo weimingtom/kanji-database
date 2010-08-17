@@ -1397,8 +1397,7 @@ V+60052	nhấn, nhận
 ⿰⺀去	tầư	# [V+607A3]
 叁	tam
 𪠝	ni
-𠫾	đi
-𪠞	đi
+𠫾,𪠞	đi
 參,参	khươm, sam, sâm, sấm, tham
 ⿰厶貞	riêng	# [V04-426C]
 叄	tam
@@ -3439,8 +3438,7 @@ V+60101	lủm
 妝,妆	trang
 妸	a, à, ả, á, gả, gã, gạ
 姂	bợm, phạp
-姉	chị
-姊	chị, tỉ
+姉,姊	chị, tỉ
 姑	co, cô, cua, o
 妲	dát, đát, đét, đớt
 妯	dâu, dầu, râu, trục, trừu

@@ -224,6 +224,17 @@ s024	𠹀	substitution de biens
 s024	𠷊	substitution de biens
 s026	⿰口紗	surenchere
 t002	⿰口潭	tenant
-u002s	⿱鴉
-u003s	⿱需
-v006s	⿱薠
+t006	⿰口籀	tierce-opposition
+t006	⿰口𪉸
+t007	⿰口棁	tiers
+u001	⿱耶	ultra-petita
+u001	𡀥	ultra-petita
+u002s	⿱鴉	unilateral
+u003s	⿱需	union
+u005	⿱越	usance
+v001	⿰口挽	vacants
+v004	⿰口汾	vaine pature
+v004	𠽾
+v006s	⿱薠	ventilation
+v007	⿰口繁	vérification
+v008	⿰口肥	viabilite
